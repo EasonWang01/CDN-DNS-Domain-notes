@@ -77,3 +77,12 @@ Backgrounds:http://www.w3schools.com/css/css_background.asp
 3.邊框
 
 Border:http://www.w3schools.com/css/tryit.asp?filename=trycss_border
+
+4.邊緣距離
+
+Margin:http://www.w3schools.com/css/tryit.asp?filename=trycss_margin_sides
+
+5.大小:
+http://www.w3schools.com/css/tryit.asp?filename=trycss_dim_height_width
+
+
