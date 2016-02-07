@@ -17,10 +17,25 @@ HTML Tags
 <style> 
 
 body{
- background:white;
+ background:black;
 } 
 
 </style>
 ```
 3.加上javascript--原始人發現了電
+```
+<script> 
+alert('Hello,World') 
+</script>
+```
+4.加上註解
+
+HTML:```<!--我是注解--> ```
+
+CSS:```//我是單行注解```
+```/*我是多行注解 */```
+
+
+javascript:```我跟CSS相同 ```
+
 
