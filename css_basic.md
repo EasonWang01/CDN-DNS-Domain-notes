@@ -58,6 +58,10 @@ div p{
 }
 
 ```
+6.選取虛擬元素
+
+http://www.w3schools.com/css/tryit.asp?filename=trycss_link
+
 更多可參考
 http://www.w3schools.com/cssref/css_selectors.asp
 
@@ -84,5 +88,11 @@ Margin:http://www.w3schools.com/css/tryit.asp?filename=trycss_margin_sides
 
 5.大小:
 http://www.w3schools.com/css/tryit.asp?filename=trycss_dim_height_width
+
+6.字體操作
+
+http://www.w3schools.com/css/css_text.asp
+
+http://www.w3schools.com/css/css_font.asp
 
 
