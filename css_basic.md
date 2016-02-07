@@ -51,3 +51,16 @@ div p{
       color: red;
 }
 ```
+5.選取所有元素
+```
+*{
+  
+}
+
+```
+更多可參考
+http://www.w3schools.com/cssref/css_selectors.asp
+
+**
+CSS Properties 屬性**
+
