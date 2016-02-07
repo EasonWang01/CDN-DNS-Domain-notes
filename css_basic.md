@@ -96,4 +96,29 @@ http://www.w3schools.com/css/css_text.asp
 
 http://www.w3schools.com/css/css_font.asp
 
+7.表格:
 
+Table:http://www.w3schools.com/css/css_table.asp
+
+8.元素顯示方式
+http://www.w3schools.com/css/css_display_visibility.asp
+```
+display: none;隱藏消失
+
+visibility: hidden;隱藏但仍占位
+```
+9.位置屬性
+
+position:http://www.w3schools.com/css/css_positioning.asp
+
+```
+
+static:預設屬性
+
+relative:預設屬性加上top, right, bottom, and left
+
+fix:固定住，不受捲動網頁影響
+
+absolute:relative跳出layout
+
+```
