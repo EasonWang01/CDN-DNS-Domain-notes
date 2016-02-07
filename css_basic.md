@@ -64,3 +64,16 @@ http://www.w3schools.com/cssref/css_selectors.asp
 **
 CSS Properties 屬性**
 
+1.顏色
+
+color:http://www.w3schools.com/css/tryit.asp?filename=trycss_colors_names
+
+opacity:http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_opacity
+
+2.背景
+
+Backgrounds:http://www.w3schools.com/css/css_background.asp
+
+3.邊框
+
+Border:http://www.w3schools.com/css/tryit.asp?filename=trycss_border
