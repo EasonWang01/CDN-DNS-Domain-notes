@@ -196,3 +196,16 @@ while (condition);
 
 # Regular Expression
 
+1.用途
+
+When you search for data in a text, you can use this search pattern to describe what you are searching for.
+
+簡言之:搜尋要找的字
+
+
+http://www.w3schools.com/js/js_regexp.asp
+
+
+# JSON
+
+http://www.w3schools.com/js/js_json.asp
