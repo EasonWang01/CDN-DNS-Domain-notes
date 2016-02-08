@@ -104,5 +104,40 @@ http://www.w3schools.com/js/js_comparisons.asp
 
 2.表達
 
+1
+```
+if () {
+    
+}
+```
+2
 
+```
+if(){
 
+}else{
+
+}
+```
+
+3
+```
+if (time < 10) {
+    greeting = "Good morning";
+} else if (time < 20) {
+    greeting = "Good day";
+} else {
+    greeting = "Good evening";
+}
+```
+4
+
+為什麼不放三個if就好?
+```
+//因為第一個if跑完他不會停，而會繼續往下跑其他if找是否有其他符合
+
+ex:上例的time等於5
+
+```
+
+5.
