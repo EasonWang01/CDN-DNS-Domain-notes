@@ -141,3 +141,51 @@ ex:上例的time等於5
 ```
 
 5.
+
+```
+switch(expression) {
+    case n:
+        code block
+        break;
+    case n:
+        code block
+        break;
+    default: //there is no case match
+        default code block
+}
+```
+
+6.
+```
+for (i = 0; i < 5; i++) {
+    text += "The number is " + i + "<br>";
+}
+```
+
+7.
+```
+var person = {fname:"John", lname:"Doe", age:25}; 
+
+var text = "";
+var x;
+for (x in person) {
+    text += person[x];
+}
+```
+
+8.
+```
+while (i < 10) {
+    text += "The number is " + i;
+    i++;
+}
+
+```
+
+9.
+
+```
+
+
+```
+
