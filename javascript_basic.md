@@ -57,3 +57,22 @@ typeof "john"
 http://www.w3schools.com/js/tryit.asp?filename=tryjs_datatypes_typeof
 
 
+
+# 定義物件後可以使用陣列方式存取
+
+http://www.w3schools.com/js/tryit.asp?filename=tryjs_objects_properties_2
+
+
+# Scope
+
+1.Local
+
+區域變數只存在function內(以var 開頭)
+
+2.Global
+
+在function外宣告均為全域變數，在function內不以var 宣告亦為global
+
+
+
+
