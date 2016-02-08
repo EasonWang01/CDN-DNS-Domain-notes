@@ -74,5 +74,35 @@ http://www.w3schools.com/js/tryit.asp?filename=tryjs_objects_properties_2
 在function外宣告均為全域變數，在function內不以var 宣告亦為global
 
 
+# Array
+
+1.宣告
+```
+var as=[];
+
+//or
+
+as = new Array()
+
+
+```
+但以下這兩個為不同的意思
+```
+    e = [3]             // e.length == 1, e[0] == 3
+    f = new Array(3),   // f.length == 3, f[0] == undefined
+
+```
+
+2.操作array
+http://www.w3schools.com/js/js_array_methods.asp
+
+
+# 比較與表達
+
+1.比較
+http://www.w3schools.com/js/js_comparisons.asp
+
+2.表達
+
 
 
