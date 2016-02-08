@@ -192,3 +192,7 @@ while (condition);
 
 ```
 加上do的差別在於他會先執行一次，再檢查
+
+
+# Regular Expression
+
