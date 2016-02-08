@@ -185,7 +185,10 @@ while (i < 10) {
 9.
 
 ```
-
+do {
+    code block to be executed
+}
+while (condition);
 
 ```
-
+加上do的差別在於他會先執行一次，再檢查
