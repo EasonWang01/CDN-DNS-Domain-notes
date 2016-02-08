@@ -1,7 +1,10 @@
 # Javascript basic
 
 
-**如何使用**
+
+# **如何使用**
+
+
 
 1.直接在HTML內加入
 
@@ -13,10 +16,15 @@
 
 
 
-**選取**
-1.
 
-選取id
+
+# **選取**
+
+
+
+
+
+1.選取id
 ```
 document.getElementById("")
 ```
@@ -30,9 +38,22 @@ document.getElementsByTagName("")
 document.getElementsByClassName("")
 ```
 
+
+# **型別**
+
+
+
+
 ```
 var length = 16;                               // Number
 var lastName = "Johnson";                      // String
 var cars = ["Saab", "Volvo", "BMW"];           // Array
 var x = {firstName:"John", lastName:"Doe"};    // Object
 ```
+查詢型別
+```
+typeof "john"
+```
+http://www.w3schools.com/js/tryit.asp?filename=tryjs_datatypes_typeof
+
+
