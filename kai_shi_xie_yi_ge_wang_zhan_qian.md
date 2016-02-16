@@ -112,3 +112,19 @@ input, select {
 .cf:after { clear: both; }
 
 ```
+#基礎架構
+```
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>web 基礎班範例</title>
+</head>
+<body>
+
+</body>
+</html>
+```
