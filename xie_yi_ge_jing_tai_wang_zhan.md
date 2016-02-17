@@ -283,3 +283,81 @@ footer {
   text-align: center;
 }
 ```
+#RWD網頁通常會從手機頁面開始做，以下我們開始做給平板跟給電腦螢幕的
+
+
+/* 平板：481px ～ 768px */
+
+##在下面加上
+```
+@media only screen and (min-width: 481px) {
+
+}
+```
+#如何測試?
+```
+@media only screen and (min-width: 481px) {
+body{
+background:black;
+}
+```
+調整瀏覽器視窗大小，當到達時會變色
+
+1.讓nav成水平排列
+
+```
+ nav ul li {
+  float:left;
+  width: 100px;
+  text-align: center;
+  line-height: 3.0em;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #ccc;  
+ }
+```
+2.讓上面兩個方框變水平
+```
+  #contents_menu1 {
+   width: 45%;
+   float: left;
+ }
+  #contents_menu2 {
+   width: 45%;
+   float: right;
+ }
+```
+
+#For電腦
+/*  電腦：769px～960px */
+```
+@media only screen and (min-width: 769px) {
+
+}
+```
+一樣先加上顏色測試
+```
+@media only screen and (min-width: 769px) {
+ background:black;
+}
+```
+
+將主畫面的右邊設為
+
+```
+ article.main {
+   width: 65%;
+   float: right;
+ }
+  aside.contents_menu {
+   width: 30%;
+   float: left;
+ }
+```
+將主畫面左邊設為
+```
+ #contents_menu1,
+ #contents_menu2 {
+   width: 95%;
+   float: none;
+ }
+```
