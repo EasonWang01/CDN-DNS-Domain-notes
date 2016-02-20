@@ -178,3 +178,15 @@ article h3 {
 padding:20px;
 }
 ```
+8.
+```
+#information{
+padding:20px;
+}
+```
+9.
+```
+#information img{
+width:100%;
+}
+```
