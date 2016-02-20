@@ -1,7 +1,6 @@
 # 寫一個靜態網站2
 
 https://github.com/EasonWang01/web-basic-template1
-
 ```
 <!DOCTYPE html>
 <html lang="ja">
@@ -55,7 +54,7 @@ https://github.com/EasonWang01/web-basic-template1
 <!-- content area -->
   <div id="contents" class="cf"> 
     <section id="work" class="cf">
-      <h2><img src="images/h2_works.jpg" width="63" height="15" alt="works"></h2>
+      
       <article>
         <img src="images/1.png" width="184" height="160" alt="work1">
        
