@@ -116,13 +116,14 @@ https://github.com/EasonWang01/web-basic-template1
     <div>
       <p>web example by yicheng</p>
       
-      <small>Copyright &copy; 2016 Responsive corporation. All Rights Reserved.</small>
+      <p><small id="small">Copyright &copy; 2016 Responsive corporation. All Rights Reserved.</small></p>
     </div>
   </footer>
   
 </div>
 </body>
 </html>
+
 
 
 ```
