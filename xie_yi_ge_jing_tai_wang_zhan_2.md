@@ -199,3 +199,11 @@ bottom:0px;
 right:0px;
 }
 ```
+11
+```
+
+#footer p,small{
+text-align:center;
+font-size:5px;
+}
+```
