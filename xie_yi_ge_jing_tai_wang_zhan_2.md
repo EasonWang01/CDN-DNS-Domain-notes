@@ -165,3 +165,16 @@ nav{
 text-align:center;
 }
 ```
+
+6.
+```
+#contents{
+text-align:center;
+}
+```
+7.
+```
+article h3 {
+padding:20px;
+}
+```
