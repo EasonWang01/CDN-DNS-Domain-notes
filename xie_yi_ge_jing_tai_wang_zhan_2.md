@@ -190,3 +190,11 @@ padding:20px;
 width:100%;
 }
 ```
+10
+```
+#pagetopBtn{
+position:fixed;
+bottom:0px;
+right:0px;
+}
+```
