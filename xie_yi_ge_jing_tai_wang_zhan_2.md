@@ -208,3 +208,12 @@ text-align:center;
 font-size:5px;
 }
 ```
+
+接著做給平板用的版型
+```
+
+/* For 平板 */
+@media only screen and (min-width:769px){
+
+}
+```
