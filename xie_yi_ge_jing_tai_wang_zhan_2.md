@@ -232,7 +232,7 @@ background:black;
 
 nav ul li {
   float: left;
-  width: 49%;   /* 調到50%發現又變回來 */
+  width: 49%;   /* 如果調到50%發現，又變回來 */
   border-bottom: 2px solid #000;
 }
 
