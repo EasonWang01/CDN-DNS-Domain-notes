@@ -215,5 +215,30 @@ font-size:5px;
 /* For 平板 */
 @media only screen and (min-width:481px){
 
+
+}
+```
+一樣先放black做測試大小
+```
+body{
+ 
+background:black;
+}
+
+```
+刪掉BODY後，先調nav
+```
+@media only screen and (min-width:481px){
+
+nav ul li {
+  float: left;
+  width: 49%;   /* 調到50%發現又變回來 */
+  border-bottom: 2px solid #000;
+}
+
+
+
+
+
 }
 ```
