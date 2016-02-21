@@ -19,3 +19,5 @@
 9.git push origin master  或是 git push remote origin +master
 
 10.前往http://username.github.io/
+
+ps:入口文件名稱為index.html
