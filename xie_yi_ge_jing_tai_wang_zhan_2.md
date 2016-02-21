@@ -263,20 +263,36 @@ nav ul li {
 ```
 調整最上方
 ```
-header h1,img,li{
+header h1{
 float:left;
 }
-```
-最上方右側
-```
 header img{
+float:left;
 margin-right:5px;
 }
 header li{
+float:left;
 margin-right:5px;
 }
+```
+```
 header ul{
 float:right;
 margin-top:25px;
+}
+```
+
+```
+#work article{
+float:left;
+width:20%;
+}
+```
+
+從手機板慢慢拉到電腦版，發現最左上方怪怪的，須點F5，畫面才變正常，原因是ul大小在畫面拉大時沒跟著變，所以要幫他變大，才塞的下東西
+```
+header ul{
+width:30%;
+margin-right:-100px;
 }
 ```
