@@ -261,3 +261,22 @@ nav ul li {
 }
 }
 ```
+調整最上方
+```
+header h1,img,li{
+float:left;
+}
+```
+最上方右側
+```
+header img{
+margin-right:5px;
+}
+header li{
+margin-right:5px;
+}
+header ul{
+float:right;
+margin-top:25px;
+}
+```
