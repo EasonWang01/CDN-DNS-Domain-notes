@@ -296,3 +296,152 @@ width:30%;
 margin-right:-100px;
 }
 ```
+最後
+
+```
+#news{
+width:40%;
+position:absolute;
+
+}
+#information{
+width:40%;
+float:right;
+}
+
+
+```
+
+
+#完成後
+```
+/* 把連結的字變黑色，底線去掉 */
+a {
+  color:#000;
+  text-decoration:none;
+}
+/* 滑鼠滑入時變色，並增加底線 */
+a:hover {
+  color:#333;
+  text-decoration:underline;
+}
+header {
+  text-align:center;
+}
+/* 把header往下拉一點 */
+header h1 {
+  padding:25px  ; 
+}
+/* 設定圖案 */
+
+p img{
+width:100%;
+}
+nav{
+text-align:center;
+}
+#contents{
+text-align:center;
+}
+
+article h3 {
+padding:20px;
+}
+
+#information{
+padding:20px;
+}
+
+#information img{
+width:100%;
+}
+
+
+#pagetopBtn{
+position:fixed;
+bottom:0px;
+right:0px;
+}
+
+
+#footer p,small{
+text-align:center;
+font-size:5px;
+}
+
+nav li{
+border: 1px solid black;
+}
+
+section{
+margin-top:60px;
+
+}
+section>h2{
+border-bottom:1px solid black;
+}
+
+/* For 平板 */
+@media only screen and (min-width:481px){
+
+nav ul li {
+  float: left;
+  width: 49%;   /* 調到50%發現又變回來 ，因為我們上面nav li 設定了一個右側的border 1px*/
+  border-bottom: 2px solid #000;
+}
+#work article{
+float:left;
+width:50%;
+}
+
+
+
+
+}
+
+
+/* For 電腦螢幕 */
+@media only screen and (min-width:961px){
+header h1{
+float:left;
+}
+header img{
+float:left;
+margin-right:5px;
+}
+header li{
+float:left;
+margin-right:5px;
+}
+header ul{
+width:30%;
+margin-right:-100px;
+}
+
+header ul{
+float:right;
+margin-top:25px;
+}
+
+nav ul li {
+  width: calc(98%/6); 
+}
+#work article{
+float:left;
+width:20%;
+}
+
+#news{
+width:40%;
+position:absolute;
+
+}
+#information{
+width:40%;
+float:right;
+}
+
+
+
+}
+```
