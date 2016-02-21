@@ -1,6 +1,8 @@
 # 寫一個靜態網站2
 
 https://github.com/EasonWang01/web-basic-template1
+
+下載好後，我們先把html和css檔案清空，重新寫一次
 ```
 <!DOCTYPE html>
 <html lang="ja">
