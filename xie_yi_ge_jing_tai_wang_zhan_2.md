@@ -381,6 +381,7 @@ section>h2{
 border-bottom:1px solid black;
 }
 
+
 /* For 平板 */
 @media only screen and (min-width:481px){
 
