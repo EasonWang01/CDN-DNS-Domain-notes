@@ -241,4 +241,13 @@ nav ul li {
 
 
 }
+
+```
+再來設定下面
+```
+#work article{
+float:left;
+width:50%;
+}
+
 ```
