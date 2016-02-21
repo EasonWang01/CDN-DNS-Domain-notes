@@ -251,3 +251,13 @@ width:50%;
 }
 
 ```
+
+ For 電腦螢幕 
+```
+/* For 電腦螢幕 */
+@media only screen and (min-width:961px){
+nav ul li {
+  width: calc(98%/6); 
+}
+}
+```
