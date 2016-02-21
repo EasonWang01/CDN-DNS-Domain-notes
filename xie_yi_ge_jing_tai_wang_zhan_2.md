@@ -56,27 +56,27 @@ https://github.com/EasonWang01/web-basic-template1
     <section id="work" class="cf">
       
       <article>
-        <img src="images/1.png" width="184" height="160" alt="work1">
+       <a href="#"> <img src="images/1.png" width="184" height="160" alt="work1"></a>
        
         <h2>你好</h2>
       </article>
       <article>
-        <img src="images/2.png" width="184" height="160" alt="work1">
+      <a href="#">  <img src="images/2.png" width="184" height="160" alt="work1"></a>
         
         <h2>歡迎</h2>
       </article>
       <article>
-        <img src="images/3.png" width="184" height="160" alt="work1">
+        <a href="#">  <img src="images/3.png" width="184" height="160" alt="work1"></a>
        
         <h2>來到</h2>
       </article>
       <article>
-        <img src="images/4.png" width="184" height="160" alt="work1">
+       <a href="#">   <img src="images/4.png" width="184" height="160" alt="work1"></a>
        
         <h2>web</h2>
       </article>
       <article>
-        <img src="images/5.png" width="184" height="160" alt="work1">
+       <a href="#">   <img src="images/5.png" width="184" height="160" alt="work1"></a>
       
         <h2>基礎班</h2>
       </article>
