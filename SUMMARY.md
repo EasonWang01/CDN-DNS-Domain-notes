@@ -8,4 +8,5 @@
 * [開始寫一個網站前](kai_shi_xie_yi_ge_wang_zhan_qian.md)
 * [寫一個靜態網站](xie_yi_ge_jing_tai_wang_zhan.md)
 * [寫一個靜態網站2](xie_yi_ge_jing_tai_wang_zhan_2.md)
+* 部屬到github pages
 
