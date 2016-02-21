@@ -213,7 +213,7 @@ font-size:5px;
 ```
 
 /* For 平板 */
-@media only screen and (min-width:769px){
+@media only screen and (min-width:481px){
 
 }
 ```
