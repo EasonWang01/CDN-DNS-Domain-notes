@@ -28,7 +28,7 @@ ps:入口文件名稱為index.html
 
 其他與上面相同，
 
-最後改為
+commit後，最後面改為
 ```
 git branch gh-pages
 ```
