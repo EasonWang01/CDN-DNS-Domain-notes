@@ -23,8 +23,43 @@ index.html
 ##開始使用
 
 1.everything inside container，所有的元素都必須放在這裡面
+
+2.用class定義元素樣式
+
+3.加起來等於12
 ```
 <div class="container">
 
 </div>
+```
+
+```
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>
+```
+
+```
+
+
+   <div class="jumbotron">
+    <h1>我是範例</h1>      
+    <p>This is just an example</p>
+  </div>
 ```
