@@ -25,6 +25,14 @@ ps:入口文件名稱為index.html
 #如果想要部屬多個網站呢
 
 新開一個repo，在push時push到gh-pages branch.
+
+其他與上面相同，
+
+最後改為
+```
+git branch gh-pages
+```
+
 ```
 git push origin gh-pages
 ```
