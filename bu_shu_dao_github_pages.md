@@ -29,4 +29,4 @@ ps:入口文件名稱為index.html
 git push origin gh-pages
 ```
 
-之後前往網址username.github.io/<repo-name>
+之後前往網址username.github.io/repo-name
