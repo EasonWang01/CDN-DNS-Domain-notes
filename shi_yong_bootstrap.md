@@ -19,3 +19,11 @@ index.html
 </body>
 </html>
 ```
+##開始使用
+
+1.everything inside container，所有的元素都必須放在這裡面
+```
+<div class="container">
+
+</div>
+```
