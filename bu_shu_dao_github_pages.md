@@ -25,5 +25,8 @@ ps:入口文件名稱為index.html
 #如果想要部屬多個網站呢
 
 新開一個repo，在push時push到gh-pages branch.
+```
+git push origin gh-pages
+```
 
 之後前往網址username.github.io/<repo-name>
