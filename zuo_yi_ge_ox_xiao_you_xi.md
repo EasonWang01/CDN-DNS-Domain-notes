@@ -269,6 +269,8 @@ $(function() {
 });
 ```
 
+
+
 完整版
 ```
 <!DOCTYPE html>
@@ -525,4 +527,18 @@ $(function() {
     </body>
 </html>
 
+```
+##想在點擊時加入音效呢?
+
+先嵌入一個音效標籤
+```
+<audio id="audio1" hidden="true" src="http://taira-komori.jpn.org/sound_os/animals01/burp1.mp3" controls preload="auto" autobuffer >
+```
+
+
+
+接著在cells.click裡面加入
+```
+
+document.getElementById('audio1').play();
 ```
