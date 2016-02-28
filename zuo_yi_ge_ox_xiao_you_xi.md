@@ -542,3 +542,12 @@ $(function() {
 
 document.getElementById('audio1').play();
 ```
+
+加入一進入網頁自動撥放的音樂
+```
+
+<audio controls autoplay>
+  <source src="http://easonwang01.github.io/default.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>	
+```
