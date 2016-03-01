@@ -59,3 +59,10 @@ http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_flex-shrink
 ```
 flex-shrink: <number>; /* default 1 */
 ```
+4.強制讓元素固定大小(會蓋過width)
+
+http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_flex-basis
+
+```
+flex-basis: <length> | auto; /* default auto */
+```
