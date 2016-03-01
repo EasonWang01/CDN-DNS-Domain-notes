@@ -153,3 +153,12 @@ index.html
   <div class=" col-md-5 col-md-offset-0">.col-sm-6 .col-md-5 .col-md-offset-2 .col-lg-6 .col-lg-offset-0</div>
 </div>
 ```
+##使用pull和push的absolute移動
+
+push往左，pull往右
+```
+<div class="row">
+  <div class="col-md-9 col-md-push-3">.col-md-9 .col-md-push-3</div>
+  <div class="col-md-3 col-md-pull-9">.col-md-3 .col-md-pull-9</div>
+</div>
+```
