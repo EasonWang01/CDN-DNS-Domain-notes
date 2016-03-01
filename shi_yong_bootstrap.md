@@ -254,3 +254,116 @@ http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_blockquote_default_css
   <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 
 </button>
 ```
+
+實際範例
+
+加入導覽列
+```
+ <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">SP<i class="fa fa-circle"></i>T</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="works.html">WORKS</a></li>
+            <li><a data-toggle="modal" data-target="#myModal" href="#myModal"><i class="fa fa-envelope-o"></i></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+```
+加入中間部分
+```
+
+	<div style="margin-top:100px;" class="container">
+		<div class="row centered">
+			<br><br>
+			<div class="col-lg-4">
+				<i class="fa fa-heart"></i>
+				<h4>DESIGN</h4>
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+			</div><!-- col-lg-4 -->
+
+			<div class="col-lg-4">
+				<i class="fa fa-laptop"></i>
+				<h4>BOOTSTRAP</h4>
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+			</div><!-- col-lg-4 -->
+
+			<div class="col-lg-4">
+				<i class="fa fa-trophy"></i>
+				<h4>SUPPORT</h4>
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+			</div><!-- col-lg-4 -->
+		</div><!-- row -->
+		<br>
+		<br>
+	</div><!-- container -->
+```
+
+2.
+```
+<div>
+		<div class="container">
+			<div class="row">
+				<h4>LATEST WORKS</h4>
+				<br>
+				<div class="col-lg-4">
+					<div class="tilt">
+					<a href="#"><img src="https://raw.githubusercontent.com/EasonWang01/EasonWang01.github.io/master/assets/img/p01.png" alt=""></a>
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="tilt">
+					<a href="#"><img src="https://raw.githubusercontent.com/EasonWang01/EasonWang01.github.io/master/assets/img/p03.png" alt=""></a>
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="tilt">
+					<a href="#"><img src="https://raw.githubusercontent.com/EasonWang01/EasonWang01.github.io/master/assets/img/p02.png" alt=""></a>
+					</div>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div>
+```
+3.
+```
+<div class="container" >
+		<div class="row ">
+			<br><br>
+			<div class="col-lg-8 col-lg-offset-2">
+				<h4>WE CREATE FIRST CLASS DESIGN</h4>
+				<p>By being true to the brand we represent, we elevate the audiences’ relationship to it. Like becomes love becomes a passion. Passion becomes advocacy. And we see the brand blossom from within, creating a whole story the audience embraces. That’s when the brand can truly flex its muscles.</p>
+			<p><br/><br/></p>
+			</div>
+			<div class="col-lg-2"></div>
+			<div class="col-lg-10 col-lg-offset-1">
+				<img class="img-responsive" src="https://raw.githubusercontent.com/EasonWang01/EasonWang01.github.io/master/assets/img/munter.png" alt="">
+			</div>
+		</div><!-- row -->
+	</div><!-- container -->
+```
+4.
+```
+	<div>
+		<div class="container"style="margin-top:10%">
+			<div class="row>
+				<div class="col-lg-8 col-lg-offset-2">
+					
+					<p>We believe ideas come from everyone, everywhere. At BlackTie, everyone within our agency walls is a designer in their own right. And there are a few principles we believe—and we believe everyone should believe—about our design craft. These truths drive us, motivate us, and ultimately help us redefine the power of design.</p>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+```
