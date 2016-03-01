@@ -20,6 +20,38 @@ index.html
 </body>
 </html>
 ```
+或直接放入
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap  Template</title>
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+   <div class="container">
+
+
+
+
+
+
+
+</div>
+ </body>
+</html>
+```
+
+
 ##開始使用
 
 1.everything inside container，所有的元素都必須放在這裡面
@@ -34,7 +66,7 @@ index.html
 
 </div>
 ```
-
+將下面放入container內
 ```
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -64,4 +96,60 @@ index.html
     <h1>我是範例</h1>      
     <p>This is just an example</p>
   </div>
+```
+#佈局
+
+```
+.col-xs- 小於768px
+.col-sm- 768~992
+.col-md- 992~1200
+.col-lg- 大於1200
+
+```
+後面的數字加起來最大12，超過會跑到第二列
+
+
+如果一個螢幕大小為1200px而div中具有xs和sm則sm會蓋過xs的效果
+```
+
+<div class="row">
+  <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+</div>
+
+
+<div class="row">
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+</div>
+
+<div class="row">
+  <div class="col-xs-6">.col-xs-6</div>
+  <div class="col-xs-6">.col-xs-6</div>
+</div>
+```
+使用offset讓元素往右
+```
+<div class="row">
+  <div class="col-md-6">.col-sm-5 .col-md-6</div>
+  <div class=" col-md-6 col-md-offset-0">.col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0</div>
+</div>
+
+<div class="row">
+  <div class="col-md-5 ">.col-sm-6 .col-md-5 </div>
+  <div class=" col-md-5 col-md-offset-1">.col-sm-6 .col-md-5 .col-md-offset-2 .col-lg-6 .col-lg-offset-0</div>
+</div>
+```
+等於
+```
+<div class="row">
+  <div class="col-md-6">.col-sm-5 .col-md-6</div>
+  <div class=" col-md-6 col-md-offset-0">.col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0</div>
+</div>
+
+<div class="row">
+  <div class="col-md-6 ">.col-sm-6 .col-md-5 </div>
+  <div class=" col-md-5 col-md-offset-0">.col-sm-6 .col-md-5 .col-md-offset-2 .col-lg-6 .col-lg-offset-0</div>
+</div>
 ```
