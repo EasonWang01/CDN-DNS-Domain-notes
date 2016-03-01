@@ -174,9 +174,34 @@ push往左，pull往右
 
 
 比原生html多了左邊的直線
+http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_blockquote_default_css
 ```
 <blockquote>
   <p>人之初</p>
   <footer>今天<cite title="Source Title">買蘋果</cite></footer>
 </blockquote>
+```
+表單
+```
+<form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">電子郵件</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="輸入電子郵件">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">密碼</label>
+    <input type="密碼" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">檔案上傳</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">在此示範區塊層級輔助說明文字。</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> 勾選我
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">送出</button>
+</form>
 ```
