@@ -12,5 +12,5 @@
 * [使用Bootstrap](shi_yong_bootstrap.md)
 * [做一個OX小遊戲](zuo_yi_ge_ox_xiao_you_xi.md)
 * [Flexbox](flexbox.md)
-* 做一個貪食蛇小遊戲
+* [做一個貪食蛇小遊戲](zuo_yi_ge_tan_shi_she_xiao_you_xi.md)
 
