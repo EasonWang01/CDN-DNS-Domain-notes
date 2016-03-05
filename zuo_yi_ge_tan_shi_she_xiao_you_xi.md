@@ -500,3 +500,5 @@ $("#"+(apple)).css('background','red');//讓蘋果的位置是紅色
 };
 
 ```
+
+http://easonwang01.github.io/snake/
