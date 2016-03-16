@@ -201,7 +201,60 @@ while (condition);
 When you search for data in a text, you can use this search pattern to describe what you are searching for.
 
 簡言之:搜尋要找的字
+RegExp
 
+格式:
+/  /
+
+查找範圍:
+/ /後可加g 或i或m
+如/ /g  / /gi
+g為找到一次後會繼續往後找，i為不分大小寫,m為找多行 
+
+查找字串
+/as/g   每找到as就會印出as
+
+查找字元
+/[as]/g  找到a或s會印出，一次只找一個字，/[^a-z]/g 代表查找所有不是a~z的字
+
+查找特殊的字
+/\b/g  查找所有數字，也是以單個字來查找
+
+查找的附帶條件
++ * ? 等等，記得是要放在方括號外面，如果有多個附帶條件可用括號刮起來
+ex:/<%([^%>]+)?%>/g
+
+RegExp為一個object 其擁有的屬性如下
+
+global	RegExp 对象是否具有标志 g。
+ignoreCase	RegExp 对象是否具有标志 i。	
+lastIndex	一个整数，标示开始下一次匹配的字符位置。
+multiline	RegExp 对象是否具有标志 m。	
+source	正则表达式的源文本。
+
+RegExp的 方法
+
+compile	编译正则表达式。	
+exec	检索字符串中指定的值。返回找到的值，并确定其位置。
+test	检索字符串中指定的值。返回 true 或 false。
+
+較常用的為exec，可用console出其反為物件(在chrome顯示為陣列，但其要使用物件存取)
+
+ex:
+```
+var tpl = '<p>Hello, my name is <%name%>. I\'m <%age%> years old.</p>'
+
+var re = /<%([^%>]+)?%>/g,
+    
+match;
+
+var match = re.exec(tpl);
+
+console.log(match);
+結果:
+["<%name%>", "name", index: 21, input: "<p>Hello, my name is <%name%>. I'm <%age%> years old.</p>"]
+
+```
 
 http://www.w3schools.com/js/js_regexp.asp
 
