@@ -35,9 +35,64 @@ CDN
 ```
 <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
 ```
+開啟線上編繹器進行練習
 
+##1.定義變數與使用四則運算
+
+```
+@nice-blue: #5B83AD;
+@light-blue: @nice-blue * 1.5;
+
+#header {
+  color: @light-blue;
+}
+```
+##2.使用Mixin
+(將 css規則直接塞入其他css規則中)
+```
+.bordered {
+  border-top: dotted 1px black;
+  border-bottom: solid 2px black;
+}
+
+#menu a {
+  color: #111;
+  .bordered;
+}
+
+.post a {
+  color: red;
+  .bordered;
+}
+```
+##3.更加清楚的子代規則
+(以下面為例，選取id header內所有 相關class)
+```
+#header {
+  color: black;
+}
+#header .navigation {
+  font-size: 12px;
+}
+#header .logo {
+  width: 300px;
+}
+```
+可寫成這樣
+```
+#header {
+  color: black;
+  .navigation {
+    font-size: 12px;
+  }
+  .logo {
+    width: 300px;
+  }
+}
+```
 
 參考至:
 
 中文:http://less.bootcss.com/features/#features-overview-feature
+
 英文:http://lesscss.org/
