@@ -90,6 +90,33 @@ CDN
   }
 }
 ```
+虛擬元素記得前面+&
+```
+.clearfix {
+  display: block;
+  zoom: 1;
+
+  &:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
+```
+##4指定選擇器名稱的變數
+```
+
+@mySelector: banner;
+
+.@{mySelector} {
+  font-weight: bold;
+  line-height: 40px;
+  margin: 0 auto;
+}
+```
 
 參考至:
 
