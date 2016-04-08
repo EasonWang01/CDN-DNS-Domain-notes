@@ -16,4 +16,5 @@
 * [Less](less.md)
 * [canvas](canvas.md)
 * [Regexp](regexp.md)
+* Animation 
 
