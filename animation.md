@@ -33,10 +33,26 @@ transition: width      2s           linear       1s;
 #2.Animation
 >(複雜版的動畫)
 
-1.指定keyframe
+###1.指定keyframe
+```
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+```
+或是(下面可指定許多關鍵影格)
+```
+
+@keyframes mymove {
+    0% {left: 0px;}
+    100% {left: 200px;}
+}
+```
+
+###2.設定animation
 
 
-2.設定animation
 
 
 
