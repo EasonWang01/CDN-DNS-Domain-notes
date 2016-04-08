@@ -18,6 +18,16 @@ short-cut
 transition: width      2s           linear       1s;
            元素屬性  幾秒鐘的動畫   如何進行動畫  延遲幾秒開始
              ```
+             
+或是個別指定
+
+```
+  background: #2db34a;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+
+```
 
 
 #2.Animation
