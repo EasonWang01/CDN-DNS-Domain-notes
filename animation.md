@@ -41,7 +41,7 @@ transition: width      2s           linear       1s;
     to {left: 200px;}
 }
 ```
-或是(下面可指定許多關鍵影格)
+或是(下面的方法可指定許多關鍵影格)
 ```
 
 @keyframes mymove {
