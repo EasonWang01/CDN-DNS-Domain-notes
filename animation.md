@@ -34,6 +34,7 @@ transition: width      2s           linear       1s;
 >(複雜版的動畫)
 
 ###1.指定keyframe
+(下面這個只可指定開始與結束)
 ```
 
 @keyframes mymove {
