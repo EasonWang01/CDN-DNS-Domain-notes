@@ -52,7 +52,10 @@ transition: width      2s           linear       1s;
 ```
 
 ###2.設定animation
-
+```
+animation: test  1s 2s 3 alternate 
+        //keyframe名稱、持續時間、delay、重複次數、動畫作用方向
+```
 
 
 
