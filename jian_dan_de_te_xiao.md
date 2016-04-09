@@ -167,3 +167,16 @@ https://www.google.com/fonts/
         }
         
 ```
+8.重疊陰影效果
+```
+        .color:hover
+        {
+
+                box-shadow:
+                10px 10px #53a7ea,
+                20px 20px #53a7ea,
+                30px 30px #53a7ea;
+       
+        transform: translateX(-30px);
+        }
+```
