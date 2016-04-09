@@ -17,5 +17,5 @@
 * [canvas](canvas.md)
 * [Regexp](regexp.md)
 * [Animation](animation.md)
-* 簡單的特效
+* [簡單的特效](jian_dan_de_te_xiao.md)
 
