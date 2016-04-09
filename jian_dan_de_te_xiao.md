@@ -140,3 +140,11 @@ https://www.google.com/fonts/
         }
 
 ```
+5.縮小
+```
+       .color:hover
+        {
+            transform: scale(0.3);
+            background:#53a7ea;
+        }
+```
