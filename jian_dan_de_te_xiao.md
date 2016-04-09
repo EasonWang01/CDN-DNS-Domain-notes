@@ -148,3 +148,22 @@ https://www.google.com/fonts/
             background:#53a7ea;
         }
 ```
+6.旋轉縮小
+```
+        .color:hover
+        {
+
+            transform: scale(0.3) rotateZ(-30deg);
+            background:#53a7ea;
+        }
+```
+7.變換外框形狀
+```
+        .color:hover
+        {
+
+            border-radius:50%;
+            background:#53a7ea;
+        }
+        
+```
