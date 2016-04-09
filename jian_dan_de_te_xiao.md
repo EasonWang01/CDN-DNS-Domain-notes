@@ -180,3 +180,48 @@ https://www.google.com/fonts/
         transform: translateX(-30px);
         }
 ```
+9.震動效果
+```
+  /* 定義關鍵影格 */
+ @keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+/*套用*/
+        .color:hover
+        {
+
+      animation: swing 1s ease;
+        }
+
+```
