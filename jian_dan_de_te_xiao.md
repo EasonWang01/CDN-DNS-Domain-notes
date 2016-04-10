@@ -269,3 +269,5 @@ http://codepen.io/EasonWang01/pen/VaQYmW
 
 `perspective`為人們看元素的距離(樹字越大越近看)
 `translateZ`為Z軸的坐標
+
+(想像坐在車上時觀看窗外月亮，沒有移動，但窗外樹叢卻移動很快，同樣道理)
