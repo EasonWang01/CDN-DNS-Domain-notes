@@ -225,3 +225,47 @@ https://www.google.com/fonts/
         }
 
 ```
+10.往內的邊框
+```
+        .color:hover
+        {
+
+  box-shadow: inset 0 0 0 25px #53a7ea;
+        }
+```
+11.視差捲動
+```
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<body>
+<style>
+   .demo {
+    perspective: 1px; padding: 0; height: 800px; height: calc(100vh - 300px); overflow: auto;
+}
+.box {
+    height: 1280px;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.iphone {
+    position: absolute; left: 50%;
+    transform: translate3D(-50%, -120px, -10px) scale(8);
+}
+</style>
+<div class="demo">
+    <div class="box">
+        <img src="001.jpg" class="iphone">
+        <i class="smile"><img style="position:absolute;top:620px;left:320px; "src="0112.png"/></i><i class="flower"></i><i class="music"></i><i class="pdf"></i>
+    </div>
+</div>
+</body>
+</html>
+```
+解說:
+http://codepen.io/EasonWang01/pen/VaQYmW
+
+`perspective`為人們看元素的距離(樹字越大越近看)
+`translateZ`為Z軸的坐標
