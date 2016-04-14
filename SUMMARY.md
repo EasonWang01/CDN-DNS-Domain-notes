@@ -18,4 +18,5 @@
 * [Regexp](regexp.md)
 * [Animation](animation.md)
 * [簡單的特效](jian_dan_de_te_xiao.md)
+* 註冊免費網域
 
