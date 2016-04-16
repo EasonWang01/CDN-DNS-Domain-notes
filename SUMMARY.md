@@ -10,6 +10,7 @@
 * [寫一個靜態網站2](xie_yi_ge_jing_tai_wang_zhan_2.md)
 * [部屬到github pages](bu_shu_dao_github_pages.md)
 * [使用Bootstrap](shi_yong_bootstrap.md)
+* [使用Semantic UI](shi_yong_semantic_ui.md)
 * [做一個OX小遊戲](zuo_yi_ge_ox_xiao_you_xi.md)
 * [Flexbox](flexbox.md)
 * [做一個貪食蛇小遊戲](zuo_yi_ge_tan_shi_she_xiao_you_xi.md)
@@ -19,5 +20,4 @@
 * [Animation](animation.md)
 * [簡單的特效](jian_dan_de_te_xiao.md)
 * [註冊免費網域](zhu_ce_mian_fei_wang_yu.md)
-* [使用Semantic UI](shi_yong_semantic_ui.md)
 
