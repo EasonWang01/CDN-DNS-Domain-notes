@@ -19,5 +19,5 @@
 * [Animation](animation.md)
 * [簡單的特效](jian_dan_de_te_xiao.md)
 * [註冊免費網域](zhu_ce_mian_fei_wang_yu.md)
-* 使用Semantic UI
+* [使用Semantic UI](shi_yong_semantic_ui.md)
 
