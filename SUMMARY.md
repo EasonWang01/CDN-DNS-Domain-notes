@@ -22,4 +22,5 @@
 * [簡單的特效](jian_dan_de_te_xiao.md)
 * [Jquery ui Todo](jquery_ui_todo.md)
 * [SVG](svg.md)
+* Sublime快捷鍵
 
