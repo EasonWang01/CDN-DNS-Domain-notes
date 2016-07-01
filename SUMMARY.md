@@ -21,5 +21,5 @@
 * [Animation](animation.md)
 * [簡單的特效](jian_dan_de_te_xiao.md)
 * [Jquery ui Todo](jquery_ui_todo.md)
-* SVG
+* [SVG](svg.md)
 
