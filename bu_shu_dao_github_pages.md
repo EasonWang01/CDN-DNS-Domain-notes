@@ -38,3 +38,7 @@ git push origin gh-pages
 ```
 
 之後前往網址username.github.io/repo-name
+
+##如仍然沒顯示
+
+可進入github project內點選setting，在option選項下方點選automatic generator
