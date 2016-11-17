@@ -7,15 +7,15 @@ Hexo 是一個快速產生Blog的模板
 下面為Hexo部署到github pages範例
 
 
-＃1.首先照著如下安裝
+#1.首先照著如下安裝
 
 https://hexo.io/zh-tw/
 
-＃2.之後成功可在本機跑起來後即可試著部署到github
+#2.之後成功可在本機跑起來後即可試著部署到github
 
-＃3.開啟一個repo 點選 setting 之後建立 github pages 
+#3.開啟一個repo 點選 setting 之後建立 github pages 
 
-＃4.到hexo 專案根目錄 `_config.yml` 加入部署指令
+#4.到hexo 專案根目錄 `_config.yml` 加入部署指令
 
 ```
 deploy:
@@ -24,7 +24,7 @@ deploy:
   branch: gh-pages
 ```
 
-＃5.注意：如果是使用github.io後面附帶repo name的(也就是gh-pages)
+#5.注意：如果是使用github.io後面附帶repo name的(也就是gh-pages)
 需加入如下在config
 
 url及root需更改
@@ -41,7 +41,7 @@ hexo deploy
 ```
 部署
 
-＃6.重新部署
+#6.重新部署
 
 ```
 先刪除.deploy_git 目錄與  public 目錄
@@ -50,3 +50,6 @@ hexo deploy
 ```
 hexo deploy
 ```
+
+#7.在別的地方develop
+先把原本hexo init push到一個repo，之後把他拉下來即可
