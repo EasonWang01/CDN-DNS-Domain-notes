@@ -23,5 +23,5 @@
 * [Jquery ui Todo](jquery_ui_todo.md)
 * [SVG](svg.md)
 * [Sublime快捷鍵](sublimekuai_jie_jian.md)
-* Deploy Blog 使用
+* Deploy Blog 使用 Hexo
 
