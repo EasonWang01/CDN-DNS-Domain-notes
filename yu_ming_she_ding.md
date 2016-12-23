@@ -72,4 +72,4 @@ https://github.com/EasonWang01/EasonWang01.github.io/settings
 可使用cloudflare的服務，原理為在進入該網站前先進入cloudflare的proxy
 ```
 
->注意:有時改完github page的設定後卻又導向之前的設定，原因是雖然他告訴你更新了，但github本身的name server資訊還沒更新
+>注意:有時改完github page的設定後卻又導向之前的設定，原因是雖然他告訴你更新了，但github本身的name server資訊還沒更新，要等一下
