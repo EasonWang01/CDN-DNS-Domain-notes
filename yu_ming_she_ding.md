@@ -75,4 +75,4 @@ https://github.com/EasonWang01/EasonWang01.github.io/settings
 
 因為CNAME的設定只可以放domain不可加上`/`但gh-pages對應到domain後一定會自動加上`/`，所以造成找不到頁面
 
-而只在和對應使用者名稱的github pages加上domain名稱的話其他gh-pages會自動讓轉址後的domain對應`/`
+而只在和對應使用者名稱的github pages加上domain名稱的話其他gh-pages repo會自動讓轉址後的domain對應`/`
