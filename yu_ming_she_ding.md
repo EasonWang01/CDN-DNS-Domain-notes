@@ -39,13 +39,28 @@ https://tw.godaddy.com/help/ip-4080
 讓使用者輸入class.sakatu.com 可轉址到easonwang01.github.io
 
 
+在DNS provider(ex:godaddy) 設定
 ```
 類型	名稱	值	TTL
 
 CNAME	class	easonwang01.github.io	1 小時
 ```
 
-接著記得到你的github pages設定轉址位址，記得只需要在最原始的設定即可，
-之後你如果要到你的github pages 的其他repo只要輸入 /repo名稱即可
+接著記得到你的github pages設定轉址位址，記得只需要在與你相同github名稱的repo設定即可，
+之後你如果要到你其他開的github pages `gh-branch` 的其他repo只要輸入 /repo名稱即可
 
 https://github.com/EasonWang01/EasonWang01.github.io/settings
+
+ex:
+```
+假設我現在開了兩個github pages 
+一個是原始的:easonwang01.github.io
+另一個是:easonwang01.github.io/class
+
+我新增了一個subdomain為class在我的godaddy下
+
+在第一個repo設定好你的DNS即可
+
+之後可輸入class.sakatu.com/classPPT/ 即可到達第二個repo
+
+```
