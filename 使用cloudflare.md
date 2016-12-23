@@ -2,6 +2,10 @@
 
 他會幫你在你的網站server前再加一道防護，你可以去你的DNS provider中把ns(name server)改成cloudflare提供的兩個位置即可
 
+#使用
+
+照著官網步驟即可，但注意在搜尋DNS設定時可能有些不會找到，要自己加上去
+
 #設定SSL
 
 https://www.cloudflare.com/a/crypto/sakatu.com#ssl
