@@ -25,4 +25,5 @@
 * [Sublime快捷鍵](sublimekuai_jie_jian.md)
 * [Deploy Blog 使用 Hexo](deploy_blog_shi_yong_hexo.md)
 * [域名設定](yu_ming_she_ding.md)
+* [使用cloudflare](使用cloudflare.md)
 
