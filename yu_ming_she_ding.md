@@ -49,7 +49,7 @@ CNAME	class	easonwang01.github.io	1 小時
 接著記得到你的github pages設定轉址位址，記得只需要在與你相同github名稱的repo設定即可，
 之後你如果要到你其他開的github pages `gh-branch` 的其他repo只要輸入 /repo名稱即可
 
-https://github.com/EasonWang01/EasonWang01.github.io/settings
+
 
 ex:
 ```
@@ -60,6 +60,7 @@ ex:
 我新增了一個subdomain為class在我的godaddy下
 
 在第一個repo設定好你的DNS即可
+https://github.com/EasonWang01/EasonWang01.github.io/settings
 
 之後可輸入class.sakatu.com/classPPT/ 即可到達第二個repo
 
