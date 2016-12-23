@@ -33,10 +33,19 @@ A	info	52.198.155.128	1 小時
 
 https://tw.godaddy.com/help/ip-4080
 
+
 #使用GITHUB pages 搭配子網域
+
+讓使用者輸入class.sakatu.com 可轉址到easonwang01.github.io
+
 
 ```
 類型	名稱	值	TTL
 
 CNAME	class	easonwang01.github.io	1 小時
 ```
+
+接著記得到你的github pages設定轉址位址，記得只需要在最原始的設定即可，
+之後你如果要到你的github pages 的其他repo只要輸入 /repo名稱即可
+
+https://github.com/EasonWang01/EasonWang01.github.io/settings
