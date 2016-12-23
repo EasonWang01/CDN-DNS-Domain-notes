@@ -29,5 +29,14 @@ A	info	52.198.155.128	1 小時
 ```
 
 雖然有些教學網站說要設CNAME但在此設定一個A紀錄即可
+因為cname是給轉址ＤＮＳ(http....)之類的非ip使用
 
 https://tw.godaddy.com/help/ip-4080
+
+#使用GITHUB pages 搭配子網域
+
+```
+類型	名稱	值	TTL
+
+CNAME	class	easonwang01.github.io	1 小時
+```
