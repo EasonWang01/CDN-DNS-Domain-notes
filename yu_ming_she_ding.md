@@ -12,3 +12,11 @@
 之前一直很納悶為什麼都沒有出現這個，直到我把`域名伺服器`選項從自訂改為預設後才出現，之後就把A記錄改為你的EC2 IP 然後再把CNAME 的 WWW改為 你的域名即可，  
 即為`@`
 
+
+#子網域(subDomain)
+
+類似 info.sakatu.com
+
+在域名前加上其他名字
+
+https://tw.godaddy.com/help/ip-4080
