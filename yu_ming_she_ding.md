@@ -65,3 +65,9 @@ https://github.com/EasonWang01/EasonWang01.github.io/settings
 之後可輸入class.sakatu.com/classPPT/ 即可到達第二個repo
 
 ```
+
+>如果想要使用自訂的subdomain加上https服務呢
+
+```
+可使用cloudflare的服務，原理為在進入該網站前先進入cloudflare的proxy
+```
