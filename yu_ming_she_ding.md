@@ -95,3 +95,18 @@ https://github.com/EasonWang01/EasonWang01.github.io/settings
 因為CNAME的設定只可以放domain不可加上`/`但gh-pages對應到domain後一定會自動加上`/`，所以造成找不到頁面
 
 而只在和對應使用者名稱的github pages加上domain名稱的話其他gh-pages repo會自動讓轉址後的domain對應`/` ex:sakatu.com/class
+
+####瀏覽器redirect快取移除
+
+1.開啟devtool disable cache 然後開著devtool再到該網站即可
+
+2.在網址後加上`//`即可
+
+ex:
+```
+https://easonwang01.github.io/classPPT
+
+改為
+
+https://easonwang01.github.io/classPPT//
+```
