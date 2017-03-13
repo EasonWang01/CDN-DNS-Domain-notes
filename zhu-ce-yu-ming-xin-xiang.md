@@ -2,7 +2,9 @@
 
 1.首先要申請一個網域名稱
 
-2.到zoho網站  https://home.zoho.com/ 點選Mail
+2.到zoho網站  https://home.zoho.com/ 點選Mail ，之後選擇免費方案然後註冊帳號
+
+之後就會進入他的教學步驟頁面
 
 3.他有三種認證方法，我們使用TXT方法
 
@@ -107,3 +109,7 @@ https://mail.zoho.com/zm/#mail/folder/inbox
 
 
 ![](/assets/螢幕快照 2017-03-13 下午3.33.18.png)
+
+
+
+可參考之中文文章:https://sofree.cc/zoho-custom-domain-mail/
