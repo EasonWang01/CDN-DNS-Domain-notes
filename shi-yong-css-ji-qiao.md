@@ -1,4 +1,4 @@
-# #1.使用純CSS做一個MODAL，之後點擊外框即可消失
+# #1.使用純CSS做一個Modal，之後點擊外框即可消失
 
 ![](/assets/螢幕快照 2017-04-18 下午3.17.33.png)
 
@@ -44,4 +44,10 @@ css
   visibility: visible;
 }
 
+```
+
+之後可使用以下，即可呼叫出Modal
+
+```
+document.getElementById('modal-1').click()
 ```
