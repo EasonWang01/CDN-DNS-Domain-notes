@@ -2,6 +2,7 @@
 
 ![](/assets/螢幕快照 2017-04-18 下午3.17.33.png)
 
+html
 ```
      <div >
        <input  className="modal-state" id="modal-1" type="checkbox" />  
@@ -13,7 +14,6 @@
 ```
 
 css
-
 ```
 .modal__bg {
   position: absolute;
