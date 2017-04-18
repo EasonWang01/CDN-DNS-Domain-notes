@@ -16,6 +16,7 @@
 * [Flexbox](flexbox.md)
 * [做一個貪食蛇小遊戲](zuo_yi_ge_tan_shi_she_xiao_you_xi.md)
 * [Less](less.md)
+* [實用CSS 技巧](shi-yong-css-ji-qiao.md)
 * [canvas](canvas.md)
 * [Regexp](regexp.md)
 * [Animation](animation.md)
