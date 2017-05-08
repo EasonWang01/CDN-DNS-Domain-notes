@@ -16,6 +16,7 @@ nginx config
 
 ![](/assets/s.png)
 
+#清除快取
 
 如果改完沒反應可先去chrome的設定清空瀏覽資料(時間記得設全部)
 `cmd+shift+del`
