@@ -1,4 +1,4 @@
-cloudflare設定
+# cloudflare設定
 ![](/assets/螢幕快照 2017-05-08 下午5.39.42.png)
 
 nginx config
@@ -8,8 +8,10 @@ nginx config
 ![](/assets/螢幕快照 2017-05-08 下午6.11.30.png)
 
 
-但目前不確定為何
 
-1.A記錄放`sakatu.com`nginx也放，但nginx無法訪問`sakatu.com`
+# 預設domain
 
-2.A記錄放`www`或`ww`或`w`都會導向`rent.sakatu.com`
+這樣子輸入sakatu.com即可另外到一個網站，有時要等一下才會生效，而www則跟上面subdomain設法一樣，但要等一下，有時不行可能是瀏覽器快取，換個瀏覽器試試
+![](/assets/螢幕快照 2017-05-08 下午11.29.52.png)
+
+![](/assets/s.png)
