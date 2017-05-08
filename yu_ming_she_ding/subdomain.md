@@ -15,3 +15,15 @@ nginx config
 ![](/assets/螢幕快照 2017-05-08 下午11.29.52.png)
 
 ![](/assets/s.png)
+
+
+如果改完沒反應可先去chrome的設定清空瀏覽資料(時間記得設全部)
+`cmd+shift+del`
+![](/assets/螢幕快照 2017-05-08 下午11.48.54.png)
+
+
+如果清完後輸入網址還是無法，可以清空電腦dns
+
+```
+sudo killall -HUP mDNSResponder
+```
