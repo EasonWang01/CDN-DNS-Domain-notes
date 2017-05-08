@@ -29,3 +29,9 @@ nginx config
 sudo killall -HUP mDNSResponder
 ```
 http://osxdaily.com/2008/03/21/how-to-flush-your-dns-cache-in-mac-os-x/
+
+(For windows)
+```
+ipconfig / flushdns
+```
+http://zh-cn.affdu.com/how-to-fix-err-name-not-resolved-server-could-not-be-found-error.html
