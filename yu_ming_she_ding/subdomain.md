@@ -24,6 +24,8 @@ nginx config
 
 如果清完後輸入網址還是無法，可以清空電腦dns
 
+(For mac)
 ```
 sudo killall -HUP mDNSResponder
 ```
+http://osxdaily.com/2008/03/21/how-to-flush-your-dns-cache-in-mac-os-x/
