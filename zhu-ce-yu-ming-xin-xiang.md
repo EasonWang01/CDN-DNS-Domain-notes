@@ -117,3 +117,8 @@ https://mailadmin.zoho.com/cpanel/index.do#userdetails
 
 
 可參考之中文文章:https://sofree.cc/zoho-custom-domain-mail/
+
+
+#注意事項:
+
+如果使用他的雙因素認證，會發生使用程式寄信時無法驗證問題
