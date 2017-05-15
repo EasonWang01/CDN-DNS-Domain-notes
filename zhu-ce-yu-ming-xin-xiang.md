@@ -111,5 +111,9 @@ https://mail.zoho.com/zm/#mail/folder/inbox
 ![](/assets/螢幕快照 2017-03-13 下午3.33.18.png)
 
 
+新增使用者
+
+https://mailadmin.zoho.com/cpanel/index.do#userdetails
+
 
 可參考之中文文章:https://sofree.cc/zoho-custom-domain-mail/
