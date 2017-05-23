@@ -30,4 +30,5 @@
 * [使用cloudflare](使用cloudflare.md)
 * [使用VNC server](使用vnc-server.md)
 * [註冊域名信箱](zhu-ce-yu-ming-xin-xiang.md)
+  * [使用AWS SES](zhu-ce-yu-ming-xin-xiang/shi-yong-aws-ses.md)
 
