@@ -24,7 +24,5 @@
 
 [https://aws.amazon.com/blogs/ses/amazon-ses-now-supports-custom-mail-from-domains/](https://aws.amazon.com/blogs/ses/amazon-ses-now-supports-custom-mail-from-domains/)
 
-
-
-需要注意的是，以上這樣雖然可以從test按鈕發送信件
+需要注意的是，以上這樣雖然可以從test按鈕發送信件，但使用nodemail或aws-sdk還是可能會跑到垃圾郵件
 
