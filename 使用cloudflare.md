@@ -42,25 +42,27 @@ Visitors will see the SSL lock icon in their browser
 
 # 使用nginx搭配cloudflare配置https
 
-https://support.cloudflare.com/hc/en-us/articles/217471977
+[https://support.cloudflare.com/hc/en-us/articles/217471977](https://support.cloudflare.com/hc/en-us/articles/217471977)
 
-
-
-先到https://www.cloudflare.com/a/crypto
+先到[https://www.cloudflare.com/a/crypto](https://www.cloudflare.com/a/crypto)
 
 然後往下拉點選\`Create certificate\`
 
 ![](/assets/螢幕快照 2017-05-30 下午2.29.02.png)
 
-
-
 之後會給你pem跟key，複製起來存到主機中
-
-
 
 之後加nginx的config加上
 
 ![](/assets/螢幕快照 2017-05-30 下午2.24.27.png)
+
+
+
+# 目前範例配置
+
+\(上面的A記錄為subdomain\)下面c![](/assets/螢幕快照 2017-05-30 下午2.31.08.png)
+
+![](/assets/螢幕快照 2017-05-30 下午2.31.08.png)
 
 
 
