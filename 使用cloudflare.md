@@ -56,13 +56,13 @@ Visitors will see the SSL lock icon in their browser
 
 ![](/assets/螢幕快照 2017-05-30 下午2.24.27.png)
 
-
-
 # 目前範例配置
 
-\(上面的A記錄為subdomain\)下面c![](/assets/螢幕快照 2017-05-30 下午2.31.08.png)
+\(上面的A記錄為subdomain\)下面ＣＮＡＭＥ與MX,TXT為mail使用![](/assets/螢幕快照 2017-05-30 下午2.31.08.png)
 
-![](/assets/螢幕快照 2017-05-30 下午2.31.08.png)
+
+
+
 
 
 
