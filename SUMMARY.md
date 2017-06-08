@@ -33,4 +33,5 @@
   * [使用AWS SES](zhu-ce-yu-ming-xin-xiang/shi-yong-aws-ses.md)
   * [mailgun](zhu-ce-yu-ming-xin-xiang/mailgun.md)
 * [SEO](seo.md)
+  * [search console](seo/search-console.md)
 
