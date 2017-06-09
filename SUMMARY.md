@@ -34,5 +34,5 @@
   * [mailgun](zhu-ce-yu-ming-xin-xiang/mailgun.md)
 * [SEO](seo.md)
   * [search console](seo/search-console.md)
-* [remote connect](remote-connect.md)
+* [遠端連線](remote-connect.md)
 
