@@ -18,3 +18,7 @@ ssh -i C:\Users\yicheng\Desktop/pem1.pem  ubuntu@ec2-52-198-111-128.ap-northeast
 
 ![](/assets/sa20.png)
 
+
+
+2.VNC server
+
