@@ -63,9 +63,7 @@ CNAME    class    easonwang01.github.io    1 小時
 ![](/assets/螢幕快照 2017-07-14 下午10.06.51.png)
 
 > 如果在&lt;Username.github.io&gt;的repo下設定網域一般來說後面加上/repo就會跑到那個repo page，但如果你的那個repo也有設好custom domain則它會自動幫你轉換url
-
-
-
+>
 > 如果想要使用自訂的subdomain加上https服務呢
 
 ```
