@@ -35,4 +35,5 @@
 * [SEO](seo.md)
   * [search console](seo/search-console.md)
 * [遠端連線](remote-connect.md)
+* [HTML LiveReload](html-livereload.md)
 
