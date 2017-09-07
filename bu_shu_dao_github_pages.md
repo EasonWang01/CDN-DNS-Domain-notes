@@ -46,15 +46,19 @@ git push origin gh-pages
 
 # ＃如何切換帳號部署
 
-通常push會找預設的ssh key所以我們要新增一個ssh key
+（例如我們想新開一個帳號放網頁，但是在cmd沒辦法push，因為ssh key不同的關係）
 
-記得remote add 的是ssh的url不是https
+解決方法:
 
+1.通常push會找預設的ssh key所以我們要新增一個ssh key
 
+2.記得remote add 的是ssh的url不是https
 
 > 記得要先啟動ssh agent       =&gt;   eval "$\(ssh-agent -s\)
 
-https://gist.github.com/jexchan/2351996
+[https://gist.github.com/jexchan/2351996](https://gist.github.com/jexchan/2351996)
 
-https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+[https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+
+3.最後把key加入帳號的setting裡的ssh key即可push
 
