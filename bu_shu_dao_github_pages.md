@@ -44,17 +44,17 @@ git push origin gh-pages
 
 可進入github project內點選setting，在option選項下方點選automatic generator
 
-
-
-
-
-
-
-# 如何切換帳號部署
+# ＃如何切換帳號部署
 
 通常push會找預設的ssh key所以我們要新增一個ssh key
 
-記得remote add 的是ssh的url
+記得remote add 的是ssh的url不是https
 
 
+
+> 記得要先啟動ssh agent       =&gt;   eval "$\(ssh-agent -s\)
+
+https://gist.github.com/jexchan/2351996
+
+https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 
