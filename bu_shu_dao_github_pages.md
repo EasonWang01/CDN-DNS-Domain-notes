@@ -44,6 +44,14 @@ git push origin gh-pages
 
 可進入github project內點選setting，在option選項下方點選automatic generator
 
+
+
+
+
+------
+
+
+
 # ＃如何切換帳號部署
 
 （例如我們想新開一個帳號放網頁，但是在cmd沒辦法push，因為ssh key不同的關係）
