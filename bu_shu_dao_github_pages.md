@@ -44,13 +44,7 @@ git push origin gh-pages
 
 可進入github project內點選setting，在option選項下方點選automatic generator
 
-
-
-
-
-------
-
-
+---
 
 # ＃如何切換帳號部署
 
@@ -69,4 +63,25 @@ git push origin gh-pages
 [https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 3.最後把key加入帳號的setting裡的ssh key即可push
+
+
+
+
+
+# 將同帳號多個Repo加上cloudflare
+
+cloudflare
+
+```
+cname  subdomain1  username.github.io
+cname  subdomain2  username.github.io
+```
+
+然後再Repo裡面點選setting
+
+然後下拉選擇Custom domain
+
+輸入你的subdomain.domain即可
+
+
 
