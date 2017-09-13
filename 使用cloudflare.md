@@ -8,7 +8,7 @@
 
 # 設定SSL
 
-https://support.cloudflare.com/hc/en-us/articles/200170416-What-do-the-SSL-options-mean-
+[https://support.cloudflare.com/hc/en-us/articles/200170416-What-do-the-SSL-options-mean-](https://support.cloudflare.com/hc/en-us/articles/200170416-What-do-the-SSL-options-mean-)
 
 進入dashboard後點選Crypto之後ssl有三個選項
 
@@ -53,6 +53,8 @@ server {
 ```
 
 # 使用nginx搭配cloudflare配置https\(Origin certicate\)
+
+> 先前是指在browser到cloudflare有加密SSL  這個是在cloudflare到你的server這段也加上SSL
 
 [https://support.cloudflare.com/hc/en-us/articles/217471977](https://blog.cloudflare.com/cloudflare-ca-encryption-origin/)
 
