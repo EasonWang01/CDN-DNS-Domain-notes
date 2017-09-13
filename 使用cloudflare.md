@@ -13,16 +13,14 @@
 進入dashboard後點選Crypto之後ssl有三個選項
 
 ```
-Full
+Full   會自動偵測你的主機server內是否有設定SSL證書自行簽發的即可
 
-Full(Strict)
+Full(Strict)  必須要有合格機構簽發的SSL證書才能
 
-Flexible
+Flexible  不用證書它會自動幫你上https
 ```
 
-Full:會自動偵測你的主機server內是否有設定SSL證書，如果有他會幫你替換為他們的，如果沒有他也會幫你加上
 
-Full\(Strict\):必須要有合格的SSL證書才能
 
 官網說明
 
@@ -40,13 +38,11 @@ You will need to have a valid SSL certificate installed on your server signed by
 Visitors will see the SSL lock icon in their browser
 ```
 
-
-
 之後
 
 在nginx設置好80 port後在https網址即可看到
 
-https://xblockchain.co
+[https://xblockchain.co](https://xblockchain.co)
 
 ```
 server {
