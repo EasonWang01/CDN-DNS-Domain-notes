@@ -8,7 +8,7 @@
 
 # 設定SSL
 
-[https://www.cloudflare.com/a/crypto/sakatu.com\#ssl](https://www.cloudflare.com/a/crypto/sakatu.com#ssl)
+https://support.cloudflare.com/hc/en-us/articles/200170416-What-do-the-SSL-options-mean-
 
 進入dashboard後點選Crypto之後ssl有三個選項
 
@@ -19,8 +19,6 @@ Full(Strict)  必須要有合格機構簽發的SSL證書才能
 
 Flexible  不用證書它會自動幫你上https
 ```
-
-
 
 官網說明
 
