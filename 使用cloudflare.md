@@ -40,9 +40,27 @@ You will need to have a valid SSL certificate installed on your server signed by
 Visitors will see the SSL lock icon in their browser
 ```
 
-# 使用nginx搭配cloudflare配置https
 
-[https://support.cloudflare.com/hc/en-us/articles/217471977](https://support.cloudflare.com/hc/en-us/articles/217471977)
+
+之後
+
+在nginx設置好80 port後在https網址即可看到
+
+https://xblockchain.co
+
+```
+server {
+        listen 80;
+        server_name xblockchain.co;
+        location / {
+          proxy_pass http://localhost:8080;
+        }
+}
+```
+
+# 使用nginx搭配cloudflare配置https\(Origin certicate\)
+
+[https://support.cloudflare.com/hc/en-us/articles/217471977](https://blog.cloudflare.com/cloudflare-ca-encryption-origin/)
 
 先到[https://www.cloudflare.com/a/crypto](https://www.cloudflare.com/a/crypto)
 
@@ -59,10 +77,4 @@ Visitors will see the SSL lock icon in their browser
 # 目前範例配置
 
 \(上面的A記錄為subdomain\)下面ＣＮＡＭＥ與MX,TXT為mail使用![](/assets/螢幕快照 2017-05-30 下午2.31.08.png)
-
-
-
-
-
-
 
