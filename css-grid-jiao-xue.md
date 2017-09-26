@@ -105,7 +105,7 @@
  justify-content
 ```
 
-給item
+給child
 
 ```
 justify-self
