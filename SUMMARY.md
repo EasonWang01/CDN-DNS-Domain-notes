@@ -13,7 +13,7 @@
 * [使用Materialize css](shi_yong_materialize_css.md)
 * [使用Semantic UI](shi_yong_semantic_ui.md)
 * [做一個OX小遊戲](zuo_yi_ge_ox_xiao_you_xi.md)
-* [Flexbox](flexbox.md)
+* [Flexbox教學](flexbox.md)
 * [做一個貪食蛇小遊戲](zuo_yi_ge_tan_shi_she_xiao_you_xi.md)
 * [Less](less.md)
 * [實用CSS 技巧](shi-yong-css-ji-qiao.md)
