@@ -4,6 +4,12 @@
 
 一個CSS的layout方法 為2-dimension 的排版方式
 
+
+
+
+
+
+
 以此為範例
 
 [https://codepen.io/pen/?editors=1100](https://codepen.io/pen/?editors=1100)
@@ -77,7 +83,7 @@
 
 ![](/assets/22.png)
 
-# 另一個寫法
+# \#寫法2
 
 直接分配每個部分要從區塊第幾個開始到第幾個結束
 
