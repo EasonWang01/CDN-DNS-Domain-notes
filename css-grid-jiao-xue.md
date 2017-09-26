@@ -97,3 +97,18 @@
 
 
 
+
+
+# \#其他align 的方法
+
+給container
+
+```
+ justify-items
+ align-items
+ justify-content
+
+```
+
+
+
