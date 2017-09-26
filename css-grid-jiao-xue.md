@@ -45,18 +45,13 @@
 </div>
 ```
 
-```css
-.grid-container {
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
-  grid-template-areas: "header header header header"
-                       "main main . sidebar"
-                       "footer footer footer footer";
-  grid-column-gap: 100px;
-  grid-row-gap: 20px;
-}
 
+
+最後在把每個區塊寫上
+
+並用grid-area 填上剛才分配的名稱
+
+```css
 .grid-item div {
   text-align: center;
 }
