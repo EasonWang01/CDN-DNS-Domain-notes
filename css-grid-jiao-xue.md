@@ -95,10 +95,6 @@
 }
 ```
 
-
-
-
-
 # \#其他align 的方法
 
 給container
@@ -107,7 +103,13 @@
  justify-items
  align-items
  justify-content
+```
 
+給item
+
+```
+justify-self
+align-self
 ```
 
 
