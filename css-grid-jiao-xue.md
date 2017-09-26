@@ -19,7 +19,7 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
-  grid-template-rows: 10px 10px 10px;
+  grid-template-rows: 30px 60px 100px;
   grid-template-areas: "header header header header"
                        "main main . sidebar"
                        "footer footer footer footer";
@@ -44,8 +44,6 @@
   </div>
 </div>
 ```
-
-
 
 最後在把每個區塊寫上
 
