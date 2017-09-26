@@ -77,3 +77,19 @@
 
 ![](/assets/22.png)
 
+# 另一個寫法
+
+直接分配每個部分要從區塊第幾個開始到第幾個結束
+
+```
+.header {
+  background-color: black;
+  grid-column-start: 1;
+  grid-column-end: end;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+```
+
+
+
