@@ -2,7 +2,7 @@
 
 1.ngrok
 
-
+https://ngrok.com/
 
 > 如果要subdomain要付費，可考慮用localtunnel
 
@@ -16,8 +16,6 @@
 $ lt --port 82 --subdomain haha
 your url is: https://haha.localtunnel.me
 ```
-
-
 
 
 
