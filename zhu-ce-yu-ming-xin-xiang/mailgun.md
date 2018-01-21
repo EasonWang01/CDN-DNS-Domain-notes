@@ -56,13 +56,13 @@ mailgun.messages().send(data, function (error, body) {
 }
 ```
 
-
-
 > 1.可以點選Mailgun網站上的Domains Tab中的Domain Information即可看到API key。
 >
 > 2.可以點選Mailgun網站上的Logs Tab查看是否發送成功。
 >
-> 之前發送給Gmail失敗出現`Free accounts are for test purposes only. Please upgrade or add the address to authorized recipients in Account Settings.` 訊息，之後加入信用卡後就發送成功了。
+> 之前發送給Gmail失敗出現`Free accounts are for test purposes only. Please upgrade or add the address to authorized recipients in Account Settings.` 訊息，之後加入信用卡後就發送成功了\(剛加完寄送大約到等五分鐘才到\)。
+>
+> 3.目前Hotmail會進入垃圾信箱。
 
 
 
