@@ -2,11 +2,7 @@
 
 到網站照著步驟加入MX與TXT
 
-
-
 ![](/assets/螢幕快照 2018-01-21 下午6.56.11.png)
-
-
 
 然後按下下圖按鈕即可認證
 
@@ -34,8 +30,6 @@
 
 ![](/assets/3.png)之後寫信給\`admin@rent.sakatu.com\`隔一下子就可以在jason40115@hotmail.com收到
 
-
-
 ## 使用API發送郵件
 
 這邊使用的是`mailgun-js`
@@ -61,6 +55,14 @@ mailgun.messages().send(data, function (error, body) {
   console.log(body);
 }
 ```
+
+
+
+> 1.可以點選Mailgun網站上的Domains Tab中的Domain Information即可看到API key。
+>
+> 2.可以點選Mailgun網站上的Logs Tab查看是否發送成功。
+>
+> 之前發送給Gmail失敗出現`Free accounts are for test purposes only. Please upgrade or add the address to authorized recipients in Account Settings.` 訊息，之後加入信用卡後就發送成功了。
 
 
 
