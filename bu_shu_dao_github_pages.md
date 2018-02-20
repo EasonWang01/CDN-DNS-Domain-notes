@@ -1,5 +1,12 @@
 # 部屬到github pages
 
+```
+分為使用者網站和專案網站
+
+使用者網站一個使用者只能有一個，Repo名稱必須取為<username>.github.io
+專案網站可以有多個，Repo名稱可以隨意，但必須部屬在gh-pages branch下
+```
+
 1.下載git
 
 2.申請github帳號
@@ -87,11 +94,29 @@ cname  subdomain2  username.github.io
 
 輸入你的subdomain.domain即可
 
-
-
 # 使用Create react app部屬
 
-https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md\#github-pages
+[https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md\#github-pages](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#github-pages)
+
+> 記得要先git init 並且 設定好remote url
+
+1.安裝gh-pages模組
+
+2.package.json加上
+
+> 以下如果是部屬到專案網站而非使用者網站gh-pages branch的話，不用加`-b master`
+
+```
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    ....
+  }
+```
+
+3.npm run deploy
+
+> 如果出現gh-pages branch 或 master branch already exist錯誤的話，刪除`node_module/gh-pages/.caches` 即可
 
 
 
