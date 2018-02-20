@@ -74,3 +74,17 @@ server {
 
 \(上面的A記錄為subdomain\)下面ＣＮＡＭＥ與MX,TXT為mail使用![](/assets/螢幕快照 2017-05-30 下午2.31.08.png)
 
+# 注意:
+
+有時使用Github page設定subdomain域名但還是找不到，換一個subdomain即可。
+
+目前測試如果放兩個subdomain則會無法進入`https://`
+
+E.g.
+
+```
+aa.cc.ni.com/
+```
+
+
+
