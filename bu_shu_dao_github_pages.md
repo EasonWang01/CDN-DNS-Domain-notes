@@ -64,9 +64,13 @@ git push origin gh-pages
 
 3.最後把key加入帳號的setting裡的ssh key即可push
 
+# 或是
 
+直接把密碼寫進git url
 
-
+```
+git remote set-url origin https://使用者名稱:密碼@github.com/使用者名稱/使用者名稱.github.io.git
+```
 
 # 將同帳號多個Repo加上cloudflare
 
@@ -82,6 +86,4 @@ cname  subdomain2  username.github.io
 然後下拉選擇Custom domain
 
 輸入你的subdomain.domain即可
-
-
 
