@@ -87,3 +87,11 @@ cname  subdomain2  username.github.io
 
 輸入你的subdomain.domain即可
 
+
+
+# 使用Create react app部屬
+
+https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md\#github-pages
+
+
+
