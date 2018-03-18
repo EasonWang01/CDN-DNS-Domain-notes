@@ -20,9 +20,9 @@ Full(Strict)  必須要有合格機構簽發的SSL證書才能
 Flexible  不用證書它會自動幫你上https
 ```
 
-> 以nginx為例，如果使用Full則必須要加上以下，才可以，不然監聽443 port時會無法存取網頁。
+> 以nginx為例，如果使用Full則必須要加上以下才可以，不然監聽443 port時會無法存取網頁。
 >
->
+> 其中pem與key是從Crypto頁下方的`Origin Certificates` 產生。
 >
 > ```
 > ssl on;
@@ -89,8 +89,6 @@ server {
 Origin Certificate是我們想在Server上安裝時需要申請的，而Edge Certificate是cloudflare自動產生的，不用理會。
 
 其中pem與key，pem下次點選網頁上Download按鈕還可以看到，但Key下一次點進來就看不到了。
-
-
 
 # 注意:
 
