@@ -13,12 +13,24 @@
 進入dashboard後點選Crypto之後ssl有三個選項
 
 ```
-Full   會自動偵測你的主機server內是否有設定SSL證書自行簽發的即可
+Full   會自動偵測你的主機server內是否有設定SSL證書,自行簽發的即可
 
 Full(Strict)  必須要有合格機構簽發的SSL證書才能
 
 Flexible  不用證書它會自動幫你上https
 ```
+
+> 以nginx為例，如果使用Full則必須要加上以下，才可以，不然監聽443 port時會無法存取網頁。
+>
+>
+>
+> ```
+> ssl on;
+> ssl_certificate /usr/test/c.pem;
+> ssl_certificate_key /usr/test/c.key;
+> ```
+
+如果用Flexible策略則在nginx不用加入以上。
 
 官網說明
 
@@ -73,6 +85,12 @@ server {
 # 目前範例配置
 
 \(上面的A記錄為subdomain\)下面ＣＮＡＭＥ與MX,TXT為mail使用![](/assets/螢幕快照 2017-05-30 下午2.31.08.png)
+
+Origin Certificate是我們想在Server上安裝時需要申請的，而Edge Certificate是cloudflare自動產生的，不用理會。
+
+其中pem與key，pem下次點選網頁上Download按鈕還可以看到，但Key下一次點進來就看不到了。
+
+
 
 # 注意:
 
