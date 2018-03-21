@@ -104,7 +104,7 @@ cname  subdomain2  username.github.io
 
 2.package.json加上
 
-> 以下如果是部屬到專案網站而非使用者網站gh-pages branch的話，不用加`-b master`
+> 以下如果是部屬到專案網站\( gh-pages branch \)而非使用者網站\(username.github.io\)的話，不用加`-b master`
 
 ```
   "scripts": {
