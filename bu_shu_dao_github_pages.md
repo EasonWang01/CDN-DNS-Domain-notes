@@ -118,5 +118,7 @@ cname  subdomain2  username.github.io
 
 > 如果出現gh-pages branch 或 master branch already exist錯誤的話，刪除`node_module/gh-pages/.caches` 即可
 
+> 記得depoly後要重新到github setting設定自訂網域。
+
 
 
