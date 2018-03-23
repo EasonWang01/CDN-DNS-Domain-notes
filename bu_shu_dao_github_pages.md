@@ -127,10 +127,8 @@ cname  subdomain2  username.github.io
 e.g.
 
 ```
-"homepage": "http://gitname.github.io/react-gh-pages"
+"homepage": "http://使用者名稱.github.io/專案名稱"
 ```
-
-
 
 4.npm run deploy
 
@@ -138,5 +136,5 @@ e.g.
 >
 > 記得depoly後要重新到github setting設定自訂網域。
 
-https://github.com/gitname/react-gh-pages
+[https://github.com/gitname/react-gh-pages](https://github.com/gitname/react-gh-pages)
 
