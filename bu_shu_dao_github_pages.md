@@ -99,6 +99,14 @@ cname  subdomain2  username.github.io
 [https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md\#github-pages](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#github-pages)
 
 > 記得要先git init 並且 設定好remote url
+>
+> 建議加上帳號密碼
+>
+> e.g.
+>
+> ```
+> git remote set-url origin https://username:password@github.com
+> ```
 
 1.安裝gh-pages模組`yarn add gh-pages`
 
@@ -114,11 +122,21 @@ cname  subdomain2  username.github.io
   }
 ```
 
-3.npm run deploy
+3.設定homepage
+
+e.g.
+
+```
+"homepage": "http://gitname.github.io/react-gh-pages"
+```
+
+
+
+4.npm run deploy
 
 > 如果出現gh-pages branch 或 master branch already exist錯誤的話，刪除`node_module/gh-pages/.caches` 即可
 >
 > 記得depoly後要重新到github setting設定自訂網域。
 
-
+https://github.com/gitname/react-gh-pages
 
