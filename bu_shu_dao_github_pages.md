@@ -100,7 +100,7 @@ cname  subdomain2  username.github.io
 
 > 記得要先git init 並且 設定好remote url
 
-1.安裝gh-pages模組
+1.安裝gh-pages模組`yarn add gh-pages`
 
 2.package.json加上
 
@@ -117,7 +117,7 @@ cname  subdomain2  username.github.io
 3.npm run deploy
 
 > 如果出現gh-pages branch 或 master branch already exist錯誤的話，刪除`node_module/gh-pages/.caches` 即可
-
+>
 > 記得depoly後要重新到github setting設定自訂網域。
 
 
