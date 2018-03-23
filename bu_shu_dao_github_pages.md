@@ -53,7 +53,7 @@ git push origin gh-pages
 
 ---
 
-# ＃如何切換帳號部署
+# 如何切換帳號部署
 
 （例如我們想新開一個帳號放網頁，但是在cmd沒辦法push，因為ssh key不同的關係）
 
@@ -71,12 +71,12 @@ git push origin gh-pages
 
 3.最後把key加入帳號的setting裡的ssh key即可push
 
-# 或是
+### 或是
 
 直接把密碼寫進git url
 
 ```
-git remote set-url origin https://使用者名稱:密碼@github.com/使用者名稱/使用者名稱.github.io.git
+git remote set-url origin https://使用者名稱:密碼@github.com/專案
 ```
 
 # 將同帳號多個Repo加上cloudflare
