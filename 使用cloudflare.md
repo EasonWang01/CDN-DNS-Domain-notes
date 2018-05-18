@@ -102,5 +102,9 @@ E.g.
 aa.cc.ni.com/
 ```
 
+# 在Github page加上apex domain
+
+https://help.github.com/articles/setting-up-an-apex-domain/\#configuring-a-records-with-your-dns-provider
+
 
 
