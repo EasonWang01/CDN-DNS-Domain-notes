@@ -48,6 +48,8 @@ You will need to have a valid SSL certificate installed on your server signed by
 Visitors will see the SSL lock icon in their browser
 ```
 
+> 配置後要等一下才會生效\(可能到幾個小時\)，如果是讓github page 自訂域名後用https，設定要選Flexible
+
 之後
 
 在nginx設置好80 port後在https網址即可看到
@@ -104,7 +106,7 @@ aa.cc.ni.com/
 
 # 在Github page加上apex domain
 
-https://help.github.com/articles/setting-up-an-apex-domain/\#configuring-a-records-with-your-dns-provider
+> 在cloudflare的A記錄加上Github給的四個A記錄即可
 
-
+[https://help.github.com/articles/setting-up-an-apex-domain/\#configuring-a-records-with-your-dns-provider](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)
 
