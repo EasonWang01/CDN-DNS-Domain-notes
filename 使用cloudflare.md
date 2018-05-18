@@ -50,9 +50,9 @@ Visitors will see the SSL lock icon in their browser
 
 > 配置後要等一下才會生效\(可能到幾個小時\)，如果是讓github page 自訂域名後用https，設定要選Flexible
 
-之後
 
-在nginx設置好80 port後在https網址即可看到
+
+如果用nginx，則在nginx設置好80 port後在https網址即可看到
 
 [https://xblockchain.co](https://xblockchain.co)
 
@@ -66,7 +66,7 @@ server {
 }
 ```
 
-# 使用nginx搭配cloudflare配置https\(Origin certicate\)
+# 使用nginx搭配cloudflare配置https\(Origin certificate\)
 
 > 先前是指在browser到cloudflare有加密SSL  這個是在cloudflare到你的server這段也加上SSL
 
