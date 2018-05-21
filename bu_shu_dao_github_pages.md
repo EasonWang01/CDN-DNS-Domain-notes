@@ -28,6 +28,12 @@
 10.前往[http://username.github.io/](http://username.github.io/)
 
 > P.S. 入口文件名稱為index.html
+>
+> 如果輸入[http://username.github.io/](http://username.github.io/)之後沒有到網站的話改為：[http://username.github.io/](http://username.github.io/)index.html
+>
+> 如果不想加/index.html的話可以刪除repo，然後重建後先用theme的方式創建github page，之後再把內容強制push即可。
+>
+> 因為有時會有bug，造成一定要加/index.html
 
 # 如果想要部屬多個網站呢
 
