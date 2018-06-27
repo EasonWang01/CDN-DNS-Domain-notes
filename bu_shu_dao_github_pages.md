@@ -134,11 +134,11 @@ e.g.
 "homepage": "http://使用者名稱.github.io/專案名稱"
 ```
 
-> 如果是使用者頁面則github.io後面不用加專案名稱
-
- build3.5n  
+> 如果是使用者頁面則github.io後面不用加專案名稱35 \`npm run bu
 
 4.npm run deploy
+
+> 記得先npm run build
 
 > 如果出現gh-pages branch 或 master branch already exist錯誤的話，刪除`node_module/gh-pages/.caches` 即可
 >
