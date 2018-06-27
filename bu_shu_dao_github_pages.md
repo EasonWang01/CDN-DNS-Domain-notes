@@ -109,7 +109,7 @@ cname  subdomain2  username.github.io
 > e.g.
 >
 > ```
-> git remote set-url origin https://username:password@github.com
+> git remote set-url origin https://username:password@github.com/<username>/<reponame>
 > ```
 
 1.安裝gh-pages模組`yarn add gh-pages`
