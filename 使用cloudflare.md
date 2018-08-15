@@ -2,7 +2,9 @@
 
 他會幫你在你的網站server前再加一道防護，你可以去你的DNS provider中把ns\(name server\)改成cloudflare提供的兩個位置即可
 
-> 輸入如下的兩個位置到Godaddy的Name Server![](/assets/Screen Shot 2018-08-15 at 5.49.00 PM.png)
+> 在Cloudflare找到如下的兩個位置的Name Server![](/assets/Screen Shot 2018-08-15 at 5.49.00 PM.png)
+
+Godaddy畫面如下，加入剛才的兩個位置![](/assets/Screen Shot 2018-08-15 at 5.50.05 PM.png)
 
 # 使用
 
