@@ -12,13 +12,7 @@ Godaddy畫面如下，加入剛才的兩個位置![](/assets/Screen Shot 2018-08
 
 ![](/assets/Screen Shot 2018-08-15 at 5.57.44 PM.png)
 
-
-
-
-
-之後要等一天左右，讓NameServer 生效。
-
-
+之後要等一小時左右，讓NameServer 生效。
 
 # 使用
 
