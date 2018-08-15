@@ -6,6 +6,8 @@
 
 Godaddy畫面如下，加入剛才的兩個位置![](/assets/Screen Shot 2018-08-15 at 5.50.05 PM.png)
 
+加完了以後再回到cloudflare點選右邊藍色的Recheck按鈕即可。
+
 # 使用
 
 照著官網步驟即可，但注意在搜尋DNS設定時可能有些不會找到，要自己加上去
