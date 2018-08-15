@@ -76,6 +76,35 @@ server {
 }
 ```
 
+# 使用cloudflare後Nginx在配置Https不用監聽著443
+
+> 都監聽著80即可。
+
+```
+
+server {
+        listen 80;
+
+        root /home/lasih82ne/getuserInfo/front-end/build;
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name www.payhome.co;
+
+}
+
+server {
+  listen 80;
+  server_name api.payhome.co;
+  location / {
+    proxy_pass http://localhost:3000;
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection "upgrade";
+    proxy_set_header Host $host;
+  }
+}
+```
+
 # 使用nginx搭配cloudflare配置https\(Origin certificate\)
 
 > 先前是指在browser到cloudflare有加密SSL  這個是在cloudflare到你的server這段也加上SSL
@@ -118,7 +147,7 @@ aa.cc.ni.com/
 
 （apex domain就是沒有subdomain的domain\)
 
-> s在cloudflare的A記錄加上Github給的四個A記錄即可
+> 在cloudflare的A記錄加上Github給的四個A記錄即可
 
 [https://help.github.com/articles/setting-up-an-apex-domain/\#configuring-a-records-with-your-dns-provider](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)
 
