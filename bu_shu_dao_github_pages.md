@@ -80,7 +80,7 @@ git push origin gh-pages
 直接把密碼寫進git url
 
 ```
-git remote set-url origin https://使用者名稱:密碼@github.com/專案
+git remote set-url origin https://使用者名稱:密碼@github.com/使用者名稱/專案
 ```
 
 # 將同帳號多個Repo加上cloudflare
@@ -139,7 +139,7 @@ e.g.
 4.npm run deploy
 
 > 記得先npm run build
-
+>
 > 如果出現gh-pages branch 或 master branch already exist錯誤的話，刪除`node_module/gh-pages/.caches` 即可
 >
 > 記得depoly後要重新到github setting設定自訂網域。
