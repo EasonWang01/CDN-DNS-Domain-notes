@@ -1,9 +1,10 @@
 # SVG
 
-###沿著path移動
+### 沿著path移動
 
-使用inkscape畫一條線，存成SVG
+使用inkscape畫一條線，存成SVG  
 類似如下
+
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
@@ -66,11 +67,11 @@
        inkscape:connector-curvature="0" />
   </g>
 </svg>
-
 ```
+
 刪除不必要的東西後簡化如下
-```
 
+```
 <svg
 
    width="210mm"
@@ -82,8 +83,8 @@
        id="path4136"
        />
 </svg>
-
 ```
+
 之後直接貼到HTML的BODY內會產生你剛畫的線
 
 再使用MOTIONPATH，並加入一個藍色方塊
@@ -96,7 +97,7 @@
   </script>
  </head>
  <body >
-   
+
 <svg
 
    width="210mm"
@@ -118,3 +119,18 @@
  </body>
 </html>
 ```
+
+
+
+# 移動SVG位置
+
+加入g元素，然後使用translate\(x, y\)
+
+```js
+<g transform="translate(20,2.5) rotate(10)">
+    <rect x="0" y="0" width="60" height="10"/>
+</g>
+```
+
+https://stackoverflow.com/questions/479591/svg-positioning
+
