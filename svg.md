@@ -120,8 +120,6 @@
 </html>
 ```
 
-
-
 # 移動SVG位置
 
 加入g元素，然後使用translate\(x, y\)
@@ -132,5 +130,36 @@
 </g>
 ```
 
-https://stackoverflow.com/questions/479591/svg-positioning
+[https://stackoverflow.com/questions/479591/svg-positioning](https://stackoverflow.com/questions/479591/svg-positioning)
+
+# SVG動畫
+
+SVG上的屬性可以直接當作css的屬性控制
+
+css
+
+```css
+@keyframes example {
+   from {r: 40}
+   to {r: 140}
+}
+
+#circle1 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+```
+
+html
+
+```html
+<svg height="500" width="500">
+  <g transform="translate(120, 120) rotate(10)">
+    <circle id="circle1" cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="white" />
+  </g>
+</svg>
+```
+
+
 
