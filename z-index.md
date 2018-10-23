@@ -2,9 +2,9 @@
 
 [https://codepen.io/anon/pen/gBdGPN](https://codepen.io/anon/pen/gBdGPN)
 
-> 移除.container1 z-index 試試。
+> 移除.container1 z-index 試試
 
-1. 同層div的順序也會影響，放在前面的div會在下面。
+2.同層div的順序也會影響，放在前面的div會在下面。
 
 
 
