@@ -8,3 +8,7 @@
 
 
 
+3. 其他同層container 有更大的zindex，就算較小的container zindex下有最大的zindex child還是會被覆蓋。
+
+https://codepen.io/anon/pen/QZVVbY
+
