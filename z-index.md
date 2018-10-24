@@ -10,17 +10,11 @@
 
 [https://codepen.io/anon/pen/QZVVbY](https://codepen.io/anon/pen/QZVVbY)
 
-
-
-
-
-
+#### 4. opacity小於1 的元素也會讓他成為z-index的stack contexts
 
 #### 不錯的文章：
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_Positioning/Understanding\_z\_index
+[https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_Positioning/Understanding\_z\_index](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index)
 
-https://philipwalton.com/articles/what-no-one-told-you-about-z-index/
-
-
+[https://philipwalton.com/articles/what-no-one-told-you-about-z-index/](https://philipwalton.com/articles/what-no-one-told-you-about-z-index/)
 
