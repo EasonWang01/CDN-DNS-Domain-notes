@@ -10,3 +10,17 @@
 
 [https://codepen.io/anon/pen/QZVVbY](https://codepen.io/anon/pen/QZVVbY)
 
+
+
+
+
+
+
+#### 不錯的文章：
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_Positioning/Understanding\_z\_index
+
+https://philipwalton.com/articles/what-no-one-told-you-about-z-index/
+
+
+
