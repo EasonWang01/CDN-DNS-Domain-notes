@@ -4,7 +4,7 @@
 
 > 移除.container1 z-index 試試
 
-#### 2.同層div的順序也會影響，放在前面的div會被壓在下面。
+#### 2.同層div的順序也會影響，放在前面的div會被壓在下面，但static的position會被壓在最下方。
 
 #### 3.其他同層container 有更大的zindex，就算較小的container zindex下有最大的zindex child還是會被覆蓋。
 
