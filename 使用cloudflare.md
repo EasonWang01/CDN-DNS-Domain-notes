@@ -62,15 +62,13 @@ Visitors will see the SSL lock icon in their browser
 
 > 配置後要等一下才會生效\(可能到幾個小時\)，如果是讓github page 自訂域名後用https，設定要選Flexible
 
-## 產生 redirect loop
+# 用 Full SSL
 
-> 如果設定為flexible SSL 打開網頁一直顯示 redirect error 可參考：
->
-> https://support.cloudflare.com/hc/en-us/articles/115000219871-Why-does-Flexible-SSL-cause-a-redirect-loop-
+> 在下圖產生 key 和 pem。![](/assets/Screen Shot 2018-11-08 at 5.54.22 PM.png)private key 只有第一次產生時會顯示。
 
-大意為因爲我們在 nginx 
+之後到 nginx 
 
-
+# 用 Flexible SSL
 
 如果用nginx，則在nginx設置好80 port後在https網址即可看到
 
@@ -85,6 +83,16 @@ server {
         }
 }
 ```
+
+#### 產生 redirect loop Error
+
+> 如果設定為`flexible SSL` 打開網頁一直顯示 redirect error 可參考：
+>
+> [https://support.cloudflare.com/hc/en-us/articles/115000219871-Why-does-Flexible-SSL-cause-a-redirect-loop-](https://support.cloudflare.com/hc/en-us/articles/115000219871-Why-does-Flexible-SSL-cause-a-redirect-loop-)
+
+> 大意為因爲我們在nginx 加上 redirect 80 to 443 所以造成此問題。
+>
+> 所以如果 nginx 有寫 redirect 的話必須用 Full SSL。
 
 # 使用cloudflare後Nginx在配置Https不用監聽著443
 
