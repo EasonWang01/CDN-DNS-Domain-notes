@@ -62,6 +62,16 @@ Visitors will see the SSL lock icon in their browser
 
 > 配置後要等一下才會生效\(可能到幾個小時\)，如果是讓github page 自訂域名後用https，設定要選Flexible
 
+## 產生 redirect loop
+
+> 如果設定為flexible SSL 打開網頁一直顯示 redirect error 可參考：
+>
+> https://support.cloudflare.com/hc/en-us/articles/115000219871-Why-does-Flexible-SSL-cause-a-redirect-loop-
+
+大意為因爲我們在 nginx 
+
+
+
 如果用nginx，則在nginx設置好80 port後在https網址即可看到
 
 [https://xblockchain.co](https://xblockchain.co)
@@ -81,7 +91,6 @@ server {
 > 都監聽著80即可。
 
 ```
-
 server {
         listen 80;
 
