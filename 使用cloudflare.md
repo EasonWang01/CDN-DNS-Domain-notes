@@ -66,7 +66,17 @@ Visitors will see the SSL lock icon in their browser
 
 > 在下圖產生 key 和 pem。![](/assets/Screen Shot 2018-11-08 at 5.54.22 PM.png)private key 只有第一次產生時會顯示。
 
-之後到 nginx 
+之後到 nginx 設定如下：
+
+```
+server {
+  server_name test.com;
+  listen 443;
+  ssl on;
+  ssl_certificate /usr/share/nginx/sslcrt/cert.pem;
+  ssl_certificate_key /usr/share/nginx/sslcrt/private.key;
+}  
+```
 
 # 用 Flexible SSL
 
@@ -89,7 +99,7 @@ server {
 > 如果設定為`flexible SSL` 打開網頁一直顯示 redirect error 可參考：
 >
 > [https://support.cloudflare.com/hc/en-us/articles/115000219871-Why-does-Flexible-SSL-cause-a-redirect-loop-](https://support.cloudflare.com/hc/en-us/articles/115000219871-Why-does-Flexible-SSL-cause-a-redirect-loop-)
-
+>
 > 大意為因爲我們在nginx 加上 redirect 80 to 443 所以造成此問題。
 >
 > 所以如果 nginx 有寫 redirect 的話必須用 Full SSL。
