@@ -4,9 +4,21 @@
 
 
 
+
+
+## Zeplin
+
+下載：https://zeplin.io/
+
+## Sketch
+
+https://www.sketchapp.com/
+
+
+
+## 使用
+
 之後下載 sketch 上的 Zeplin plugin 好讓 sketch 上的 artboard 可以引入 zeplin。
 
-https://github.com/zeplin/zeplin-sketch-plugin/archive/v1.6.4.zip
-
-
+[https://github.com/zeplin/zeplin-sketch-plugin/archive/v1.6.4.zip](https://github.com/zeplin/zeplin-sketch-plugin/archive/v1.6.4.zip)
 
