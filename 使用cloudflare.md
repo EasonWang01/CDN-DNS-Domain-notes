@@ -75,7 +75,7 @@ server {
   ssl on;
   ssl_certificate /usr/share/nginx/sslcrt/cert.pem;
   ssl_certificate_key /usr/share/nginx/sslcrt/private.key;
-}  
+}
 ```
 
 # 用 Flexible SSL
@@ -177,4 +177,12 @@ aa.cc.ni.com/
 > 在cloudflare的A記錄加上Github給的四個A記錄即可
 
 [https://help.github.com/articles/setting-up-an-apex-domain/\#configuring-a-records-with-your-dns-provider](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)
+
+# 轉導域名到subdomain
+
+點選 Page Rules
+
+![](/assets/Screen Shot 2019-02-07 at 5.23.25 PM.png)
+
+
 
