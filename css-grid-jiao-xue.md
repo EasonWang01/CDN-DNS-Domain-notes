@@ -1,12 +1,12 @@
-# \#CSS Grid 教學
+# CSS Grid 教學
 
 [https://css-tricks.com/snippets/css/complete-guide-grid/](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
-一個CSS的layout方法 為2-dimension 的排版方式
+CSS Grid 為一個 CSS 的 layout 方法，2-dimension 的排版方式。
 
 \(有兩個方式寫grid 以下分別說明\)
 
-# \#寫法1
+# 寫法1
 
 以此為範例
 
@@ -51,7 +51,7 @@
 
 最後在把每個區塊寫上
 
-並用grid-area 填上剛才分配的名稱
+並用 grid-area 屬性填上剛才 grid-template-areas 分配的名稱
 
 ```css
 .grid-item div {
