@@ -1,8 +1,9 @@
-# #1.使用純CSS做一個Modal，之後點擊外框即可消失
+# 1.使用純CSS做一個Modal，之後點擊外框即可消失
 
 ![](/assets/螢幕快照 2017-04-18 下午3.17.33.png)
 
 html
+
 ```
      <div >
        <input  className="modal-state" id="modal-1" type="checkbox" />  
@@ -14,6 +15,7 @@ html
 ```
 
 css
+
 ```
 .modal__bg {
   position: absolute;
@@ -43,7 +45,6 @@ css
 .modal-state:checked ~ .modalbg {
   visibility: visible;
 }
-
 ```
 
 之後可使用以下，即可呼叫出Modal
@@ -51,3 +52,22 @@ css
 ```
 document.getElementById('modal-1').click()
 ```
+
+# 2.字體大小 RWD
+
+```
+html {
+ font-size: 1vw
+}
+```
+
+讓最外層用 vw，內層元素用rem來相對於最 root 的比例。
+
+```
+div {
+  font-size: 1.2rem
+}
+```
+
+
+
