@@ -22,6 +22,8 @@ const findPropsReg = new RegExp(`${fileName}.propTypes(.|\n)+.+`, 'g')
 
 ## Match所有字元包含換行
 
+> 如果單純用g，則是會match後繼續往下找，但假設match後要用表達式找下一行則要用如下\n
+
 ```text
 (.|\n)+
 ```
@@ -32,5 +34,5 @@ const findPropsReg = new RegExp(`${fileName}.propTypes(.|\n)+.+`, 'g')
 (.|\n)+?(?=到某個字)
 ```
 
-
+[https://stackoverflow.com/questions/7124778/how-to-match-anything-up-until-this-sequence-of-characters-in-a-regular-expres](https://stackoverflow.com/questions/7124778/how-to-match-anything-up-until-this-sequence-of-characters-in-a-regular-expres)
 
