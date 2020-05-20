@@ -29,7 +29,7 @@ const findPropsReg = new RegExp(`${fileName}.propTypes(.|\n)+.+`, 'g')
 ## Match 直到某個字
 
 ```javascript
-(.|\n)+?(?=)
+(.|\n)+?(?=到某個字)
 ```
 
 
