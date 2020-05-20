@@ -20,3 +20,17 @@ const findPropsReg = new RegExp(`${fileName}.propTypes(.|\n)+.+`, 'g')
 
 > 直接寫表達式即可 不用 \
 
+## Match所有字元包含換行
+
+```text
+(.|\n)+
+```
+
+## Match 直到某個字
+
+```javascript
+(.|\n)+?(?=)
+```
+
+
+
