@@ -1,19 +1,20 @@
-# HTML tags
+# HTML basic
 
-![](HTMLtag.jpg)
+## HTML tags
 
+![](.gitbook/assets/HTMLtag.jpg)
 
-# HTML5  new tags
+## HTML5  new tags
 
 參考至w3 school
 
-(http://www.w3schools.com/html/html5_new_elements.asp)
+\([http://www.w3schools.com/html/html5\_new\_elements.asp](http://www.w3schools.com/html/html5_new_elements.asp)\)
 
-
-![](img_sem_elements.gif)
+![](.gitbook/assets/img_sem_elements.gif)
 
 較常使用:
-```
+
+```text
 <div>
 
 <span>
@@ -49,8 +50,8 @@
 </datalist> 
 
 
-<canvas>	Defines graphic drawing using JavaScript </canvas>
+<canvas>    Defines graphic drawing using JavaScript </canvas>
 
-<svg>	Defines graphic drawing using </svg>
-
+<svg>    Defines graphic drawing using </svg>
 ```
+

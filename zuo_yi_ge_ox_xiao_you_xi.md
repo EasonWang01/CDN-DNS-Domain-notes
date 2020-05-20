@@ -1,8 +1,10 @@
-# 做一個OOXX小遊戲
+# 做一個OX小遊戲
 
+## 做一個OOXX小遊戲
 
 index.html
-```
+
+```text
 <!DOCTYPE html>
 <html>
     <head>
@@ -41,11 +43,12 @@ index.html
     </body>
 </html>
 ```
-#接著在同層目錄建造一個game.js和style.css
 
+## 接著在同層目錄建造一個game.js和style.css
 
 style.css
-```
+
+```text
         <style>
             body {
                 background-color: #d2d7d3;
@@ -118,23 +121,27 @@ style.css
                 font-family: sans-serif;
                 padding: 32px 0;
             }
-			@media (max-width: 600px) {
+            @media (max-width: 600px) {
                 .board {
                     width: 90%;
                 }
             }
         </style>
 ```
-#接著開始寫邏輯的部分game.js
+
+## 接著開始寫邏輯的部分game.js
 
 1.東西都放在這裡面，代表載入完DOM後才會執行
-```
+
+```text
 $(function() {
 
 });
 ```
-2.我們讓cell(九宮格)的高度會保持寬度固定，以及定義我們需要的變數
-```
+
+2.我們讓cell\(九宮格\)的高度會保持寬度固定，以及定義我們需要的變數
+
+```text
  var cells = $('.cell');
   //圈叉符號
     var symbols = ['&times;', '&#9675;'];
@@ -142,7 +149,7 @@ $(function() {
     var currentStep = 0,
         currentState = {};
     var gameOver = true;
-	//調整大小
+    //調整大小
  var winResizeHandler = function() {
         var c = cells;
         var w = c.width();
@@ -151,13 +158,14 @@ $(function() {
             'font-size': w + 'px'
         }).height(w);
     };
-	winResizeHandler();
+    winResizeHandler();
 ```
+
 3.接著定義點擊cell要發生的事
 
-```
+```text
 //接著定義點擊cell要發生的事
-	   cells.click(function(e) {
+       cells.click(function(e) {
         if (!gameOver) {
             var $this = $(this);//簡寫
             var i = $this.data('i');//cell中自定義的屬性data-i
@@ -183,8 +191,10 @@ $(function() {
         }
     });
 ```
-4.回到上面定義potentialCombos、winningCombos、checkCombo、  showArrow
-```
+
+4.回到上面定義potentialCombos、winningCombos、checkCombo、 showArrow
+
+```text
   //哪些情況可能獲勝
     var winningCombos = {
         combo0: [0, 1, 2],
@@ -218,11 +228,11 @@ $(function() {
             $('.player2 > .arrow').removeClass('inv');            
         }
     };
-	
-	
-	
-	
-	   var checkCombo = function(a) {
+
+
+
+
+       var checkCombo = function(a) {
         var a0 = currentState[a[0]],///檢查陣列中三個元素是否都等於圈或叉
             a1 = currentState[a[1]],
             a2 = currentState[a[2]];
@@ -235,10 +245,11 @@ $(function() {
         return w;
     };
 ```
+
 5.最後定義遊戲要在剛開始時初始化，和gameover時點擊任意按鍵初始化
 
-```
-	///初始化遊戲
+```text
+    ///初始化遊戲
     var initGame = function() {
       ///如果遊戲結束清空九公格
         if (gameOver) {
@@ -258,21 +269,20 @@ $(function() {
     };
   //載入完網頁先執行初始化
     initGame();
-	
-	    $(window)
+
+        $(window)
         .resize(winResizeHandler)//縮放螢幕後自動調整方塊大小
         .keydown(function(e) {//點擊任意鍵初始化
             e.preventDefault();
             initGame();
         });
-        
+
 });
 ```
 
-
-
 完整版
-```
+
+```text
 <!DOCTYPE html>
 <html>
     <head>
@@ -350,7 +360,7 @@ $(function() {
                 font-family: sans-serif;
                 padding: 32px 0;
             }
-			@media (max-width: 600px) {
+            @media (max-width: 600px) {
                 .board {
                     width: 90%;
                 }
@@ -395,7 +405,7 @@ $(function() {
     var currentStep = 0,
         currentState = {};
     var gameOver = true;
-	//調整大小
+    //調整大小
  var winResizeHandler = function() {
         var c = cells;
         var w = c.width();
@@ -404,9 +414,9 @@ $(function() {
             'font-size': w + 'px'
         }).height(w);
     };
-	winResizeHandler();
-	//4
-	  //哪些情況可能獲勝
+    winResizeHandler();
+    //4
+      //哪些情況可能獲勝
     var winningCombos = {
         combo0: [0, 1, 2],
         combo1: [3, 4, 5],
@@ -439,12 +449,12 @@ $(function() {
             $('.player2 > .arrow').removeClass('inv');            
         }
     };
-	
-	
-	
-	
-	//3
-	   var checkCombo = function(a) {
+
+
+
+
+    //3
+       var checkCombo = function(a) {
         var a0 = currentState[a[0]],///檢查陣列中三個元素是否都等於圈或叉
             a1 = currentState[a[1]],
             a2 = currentState[a[2]];
@@ -456,14 +466,14 @@ $(function() {
         }
         return w;
     };
-	
-	
-	
-	
-	
+
+
+
+
+
 //2
-	//接著定義點擊cell要發生的事
-	   cells.click(function(e) {
+    //接著定義點擊cell要發生的事
+       cells.click(function(e) {
         if (!gameOver) {
             var $this = $(this);//簡寫
             var i = $this.data('i');//cell中自定義的屬性data-i
@@ -488,12 +498,12 @@ $(function() {
             }
         }
     });
-	
-	//回到上面定義potentialCombos winningCombos  checkCombo  showArrow
-	
-	//5
-	//最後定義遊戲要在剛開始時初始化，和gameover時點擊任意按鍵初始化
-	///初始化遊戲
+
+    //回到上面定義potentialCombos winningCombos  checkCombo  showArrow
+
+    //5
+    //最後定義遊戲要在剛開始時初始化，和gameover時點擊任意按鍵初始化
+    ///初始化遊戲
     var initGame = function() {
       ///如果遊戲結束清空九公格
         if (gameOver) {
@@ -513,41 +523,41 @@ $(function() {
     };
   //載入完網頁先執行初始化
     initGame();
-	
-	    $(window)
+
+        $(window)
         .resize(winResizeHandler)//縮放螢幕後自動調整方塊大小
         .keydown(function(e) {//點擊任意鍵初始化
             e.preventDefault();
             initGame();
         });
-        
+
 });
 
         </script>
     </body>
 </html>
-
 ```
-##想在點擊時加入音效呢?
+
+### 想在點擊時加入音效呢?
 
 先嵌入一個音效標籤
-```
+
+```text
 <audio id="audio1" hidden="true" src="http://taira-komori.jpn.org/sound_os/animals01/burp1.mp3" controls preload="auto" autobuffer >
 ```
 
-
-
 接著在cells.click裡面加入
-```
 
+```text
 document.getElementById('audio1').play();
 ```
 
 加入一進入網頁自動撥放的音樂
-```
 
+```text
 <audio controls autoplay>
   <source src="http://easonwang01.github.io/default.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
-</audio>	
+</audio>
 ```
+

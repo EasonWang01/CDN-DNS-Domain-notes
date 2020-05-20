@@ -1,27 +1,31 @@
 # 使用Bootstrap
 
-1.開啟一個新的資料夾，裡面建立css資料夾，以及外面建立index.html
+## 使用Bootstrap
 
+1.開啟一個新的資料夾，裡面建立css資料夾，以及外面建立index.html
 
 2.到bootstrap官網下載，之後加css資料夾內的bootstrap.css放入你的css資料夾內
 
 index.html
-```
+
+```text
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel='stylesheet' type='text/css' href='./css/bootstrap.css' />
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' type='text/css' href='./css/bootstrap.css' />
+    <title>Document</title>
 </head>
 <body>
 
 </body>
 </html>
 ```
+
 或直接放入
-```
+
+```text
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -33,7 +37,7 @@ index.html
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
   </head>
@@ -51,8 +55,7 @@ index.html
 </html>
 ```
 
-
-##開始使用
+### 開始使用
 
 1.everything inside container，所有的元素都必須放在這裡面
 
@@ -61,13 +64,16 @@ index.html
 3.加起來等於12
 
 4.Glyphicons
-```
+
+```text
 <div class="container">
 
 </div>
 ```
+
 將下面放入container內
-```
+
+```text
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -89,29 +95,27 @@ index.html
 </nav>
 ```
 
-```
-
-
+```text
    <div class="jumbotron">
     <h1>我是範例</h1>      
     <p>This is just an example</p>
   </div>
 ```
-#佈局
 
-```
+## 佈局
+
+```text
 .col-xs- 小於768px
 .col-sm- 768~992
 .col-md- 992~1200
 .col-lg- 大於1200
-
 ```
+
 後面的數字加起來最大12，超過會跑到第二列
 
-
 如果一個螢幕大小為1200px而div中具有xs和sm則sm會蓋過xs的效果
-```
 
+```text
 <div class="row">
   <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
   <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
@@ -129,8 +133,10 @@ index.html
   <div class="col-xs-6">.col-xs-6</div>
 </div>
 ```
+
 使用offset讓元素往右
-```
+
+```text
 <div class="row">
   <div class="col-md-6">.col-sm-5 .col-md-6</div>
   <div class=" col-md-6 col-md-offset-0">.col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0</div>
@@ -141,8 +147,10 @@ index.html
   <div class=" col-md-5 col-md-offset-1">.col-sm-6 .col-md-5 .col-md-offset-2 .col-lg-6 .col-lg-offset-0</div>
 </div>
 ```
+
 等於
-```
+
+```text
 <div class="row">
   <div class="col-md-6">.col-sm-5 .col-md-6</div>
   <div class=" col-md-6 col-md-offset-0">.col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0</div>
@@ -153,36 +161,42 @@ index.html
   <div class=" col-md-5 col-md-offset-0">.col-sm-6 .col-md-5 .col-md-offset-2 .col-lg-6 .col-lg-offset-0</div>
 </div>
 ```
-##使用pull和push的absolute移動
+
+### 使用pull和push的absolute移動
 
 push往左，pull往右
-```
+
+```text
 <div class="row">
   <div class="col-md-9 col-md-push-3">.col-md-9 .col-md-push-3</div>
   <div class="col-md-3 col-md-pull-9">.col-md-3 .col-md-pull-9</div>
 </div>
 ```
-##文字對齊
-```
+
+### 文字對齊
+
+```text
 <p class="text-left">靠左對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。</p>
 <p class="text-center">置中對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。</p>
 <p class="text-right">靠右對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。</p>
 <p class="text-justify">平均對齊文字平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。。</p>
 <p class="text-nowrap">不換行文字平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。。</p>
 ```
-##blockquote
 
+### blockquote
 
-比原生html多了左邊的直線
-http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_blockquote_default_css
-```
+比原生html多了左邊的直線 [http://www.w3schools.com/tags/tryit.asp?filename=tryhtml\_blockquote\_default\_css](http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_blockquote_default_css)
+
+```text
 <blockquote>
   <p>人之初</p>
   <footer>今天<cite title="Source Title">買蘋果</cite></footer>
 </blockquote>
 ```
+
 表單
-```
+
+```text
 <form role="form">
   <div class="form-group">
     <label for="exampleInputEmail1">電子郵件</label>
@@ -205,12 +219,14 @@ http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_blockquote_default_css
   <button type="submit" class="btn btn-default">送出</button>
 </form>
 ```
-#導覽列
-```
+
+## 導覽列
+
+```text
 <nav class="navbar>
 ```
-```
 
+```text
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -242,10 +258,11 @@ http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_blockquote_default_css
     </div>
   </div>
 </nav>
-  
 ```
-使用圖案，到https://kkbruce.tw/bs3/Components查詢
-```
+
+使用圖案，到[https://kkbruce.tw/bs3/Components查詢](https://kkbruce.tw/bs3/Components查詢)
+
+```text
 <button class="btn btn-default" >
   <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
 </button>
@@ -258,7 +275,8 @@ http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_blockquote_default_css
 實際範例
 
 加入導覽列
-```
+
+```text
  <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -281,89 +299,96 @@ http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_blockquote_default_css
       </div>
     </div>
 ```
+
 加入中間部分
-```
 
-	<div style="margin-top:100px;" class="container">
-		<div class="row centered">
-			<br><br>
-			<div class="col-lg-4">
-				<i class="fa fa-heart"></i>
-				<h4>DESIGN</h4>
-				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
-			</div><!-- col-lg-4 -->
+```text
+    <div style="margin-top:100px;" class="container">
+        <div class="row centered">
+            <br><br>
+            <div class="col-lg-4">
+                <i class="fa fa-heart"></i>
+                <h4>DESIGN</h4>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+            </div><!-- col-lg-4 -->
 
-			<div class="col-lg-4">
-				<i class="fa fa-laptop"></i>
-				<h4>BOOTSTRAP</h4>
-				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
-			</div><!-- col-lg-4 -->
+            <div class="col-lg-4">
+                <i class="fa fa-laptop"></i>
+                <h4>BOOTSTRAP</h4>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+            </div><!-- col-lg-4 -->
 
-			<div class="col-lg-4">
-				<i class="fa fa-trophy"></i>
-				<h4>SUPPORT</h4>
-				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
-			</div><!-- col-lg-4 -->
-		</div><!-- row -->
-		<br>
-		<br>
-	</div><!-- container -->
+            <div class="col-lg-4">
+                <i class="fa fa-trophy"></i>
+                <h4>SUPPORT</h4>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+            </div><!-- col-lg-4 -->
+        </div><!-- row -->
+        <br>
+        <br>
+    </div><!-- container -->
 ```
 
 2.
-```
+
+```text
 <div>
-		<div class="container">
-			<div class="row">
-				<h4>LATEST WORKS</h4>
-				<br>
-				<div class="col-lg-4">
-					<div class="tilt">
-					<a href="#"><img src="https://raw.githubusercontent.com/EasonWang01/EasonWang01.github.io/master/assets/img/p01.png" alt=""></a>
-					</div>
-				</div>
+        <div class="container">
+            <div class="row">
+                <h4>LATEST WORKS</h4>
+                <br>
+                <div class="col-lg-4">
+                    <div class="tilt">
+                    <a href="#"><img src="https://raw.githubusercontent.com/EasonWang01/EasonWang01.github.io/master/assets/img/p01.png" alt=""></a>
+                    </div>
+                </div>
 
-				<div class="col-lg-4">
-					<div class="tilt">
-					<a href="#"><img src="https://raw.githubusercontent.com/EasonWang01/EasonWang01.github.io/master/assets/img/p03.png" alt=""></a>
-					</div>
-				</div>
+                <div class="col-lg-4">
+                    <div class="tilt">
+                    <a href="#"><img src="https://raw.githubusercontent.com/EasonWang01/EasonWang01.github.io/master/assets/img/p03.png" alt=""></a>
+                    </div>
+                </div>
 
-				<div class="col-lg-4">
-					<div class="tilt">
-					<a href="#"><img src="https://raw.githubusercontent.com/EasonWang01/EasonWang01.github.io/master/assets/img/p02.png" alt=""></a>
-					</div>
-				</div>
-			</div><!-- row -->
-		</div><!-- container -->
-	</div>
+                <div class="col-lg-4">
+                    <div class="tilt">
+                    <a href="#"><img src="https://raw.githubusercontent.com/EasonWang01/EasonWang01.github.io/master/assets/img/p02.png" alt=""></a>
+                    </div>
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
+    </div>
 ```
+
 3.
-```
+
+```text
 <div class="container" >
-		<div class="row ">
-			<br><br>
-			<div class="col-lg-8 col-lg-offset-2">
-				<h4>WE CREATE FIRST CLASS DESIGN</h4>
-				<p>By being true to the brand we represent, we elevate the audiences’ relationship to it. Like becomes love becomes a passion. Passion becomes advocacy. And we see the brand blossom from within, creating a whole story the audience embraces. That’s when the brand can truly flex its muscles.</p>
-			<p><br/><br/></p>
-			</div>
-			<div class="col-lg-2"></div>
-			<div class="col-lg-10 col-lg-offset-1">
-				<img class="img-responsive" src="https://raw.githubusercontent.com/EasonWang01/EasonWang01.github.io/master/assets/img/munter.png" alt="">
-			</div>
-		</div><!-- row -->
-	</div><!-- container -->
+        <div class="row ">
+            <br><br>
+            <div class="col-lg-8 col-lg-offset-2">
+                <h4>WE CREATE FIRST CLASS DESIGN</h4>
+                <p>By being true to the brand we represent, we elevate the audiences’ relationship to it. Like becomes love becomes a passion. Passion becomes advocacy. And we see the brand blossom from within, creating a whole story the audience embraces. That’s when the brand can truly flex its muscles.</p>
+            <p><br/><br/></p>
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-10 col-lg-offset-1">
+                <img class="img-responsive" src="https://raw.githubusercontent.com/EasonWang01/EasonWang01.github.io/master/assets/img/munter.png" alt="">
+            </div>
+        </div><!-- row -->
+    </div><!-- container -->
 ```
+
 4.
+
+```text
+    <div>
+        <div class="container"style="margin-top:10%">
+            <div class="row>
+                <div class="col-lg-8 col-lg-offset-2">
+
+                    <p>We believe ideas come from everyone, everywhere. At BlackTie, everyone within our agency walls is a designer in their own right. And there are a few principles we believe—and we believe everyone should believe—about our design craft. These truths drive us, motivate us, and ultimately help us redefine the power of design.</p>
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
 ```
-	<div>
-		<div class="container"style="margin-top:10%">
-			<div class="row>
-				<div class="col-lg-8 col-lg-offset-2">
-					
-					<p>We believe ideas come from everyone, everywhere. At BlackTie, everyone within our agency walls is a designer in their own right. And there are a few principles we believe—and we believe everyone should believe—about our design craft. These truths drive us, motivate us, and ultimately help us redefine the power of design.</p>
-				</div>
-			</div><!-- row -->
-		</div><!-- container -->
-```
+

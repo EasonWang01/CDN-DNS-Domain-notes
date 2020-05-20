@@ -1,9 +1,10 @@
 # 寫一個靜態網站
 
+## 寫一個靜態網站
 
 在body放一個div方便選取
 
-```
+```text
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -21,14 +22,18 @@
 </body>
 </html>
 ```
+
 加上header
-```
+
+```text
 <header id="header">
     <h1>web 基礎班範例</h1>
   </header>
 ```
+
 加上導航列
-```
+
+```text
   <nav id="nav">
     <ul class="cf">
       <li>menu1</li>
@@ -37,16 +42,19 @@
     </ul>
   </nav>
 ```
-加上主內容欄
-```
 
+加上主內容欄
+
+```text
   <div id="contents" class="cf">
-  
-  
+
+
   </div>
 ```
+
 在主內容欄內加入一個aside內含兩個section
-```
+
+```text
 <aside class="contents_menu cf">
       <section id="contents_menu1">
         <h1>Contents Menu1</h1>
@@ -54,42 +62,47 @@
       <section id="contents_menu2">
         <h1>Contents Menu2</h1>
       </section>
-</aside>  
+</aside>
 ```
+
 在主內容欄再加入一個article內含數個section
-```
+
+```text
 <article class="main">
-	      <section id="body_link">
-	        <h1>2016.03.14</h1>
-	        <p>請輸入文字</p> 
+          <section id="body_link">
+            <h1>2016.03.14</h1>
+            <p>請輸入文字</p> 
          </section>
          <section id="section_link">
-         	<h1>2016.03.12</h1>
-         	<p>請輸入文字</p>
+             <h1>2016.03.12</h1>
+             <p>請輸入文字</p>
         </section>
         <section id="article_link">
-         	<h1>2016.02.25</h1>
-         	<p>請輸入文字</p>
+             <h1>2016.02.25</h1>
+             <p>請輸入文字</p>
         </section>
         <section id="aside_link">
-         	<h1>2016.02.10</h1>
-         	<p>請輸入文字</p>
+             <h1>2016.02.10</h1>
+             <p>請輸入文字</p>
         </section>
         <section id="nav_link">
-         	<h1>2016.02.09</h1>
-         	<p>請輸入文字</p>
+             <h1>2016.02.09</h1>
+             <p>請輸入文字</p>
         </section>          
     </article>
 ```
+
 最後在最外層div下加入一個footer當底部
-```
+
+```text
   <footer id="footer">
     <small>&copy; 2016 BaseTemplate. </small>
   </footer>
 ```
 
 完成後長這樣子
-```
+
+```text
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -123,25 +136,25 @@
       </section>
     </aside>  
       <article class="main">
-	      <section id="body_link">
-	        <h1>2016.03.14</h1>
-	        <p>請輸入文字</p> 
+          <section id="body_link">
+            <h1>2016.03.14</h1>
+            <p>請輸入文字</p> 
          </section>
          <section id="section_link">
-         	<h1>2016.03.12</h1>
-         	<p>請輸入文字</p>
+             <h1>2016.03.12</h1>
+             <p>請輸入文字</p>
         </section>
         <section id="article_link">
-         	<h1>2016.02.25</h1>
-         	<p>請輸入文字</p>
+             <h1>2016.02.25</h1>
+             <p>請輸入文字</p>
         </section>
         <section id="aside_link">
-         	<h1>2016.02.10</h1>
-         	<p>請輸入文字</p>
+             <h1>2016.02.10</h1>
+             <p>請輸入文字</p>
         </section>
         <section id="nav_link">
-         	<h1>2016.02.09</h1>
-         	<p>請輸入文字</p>
+             <h1>2016.02.09</h1>
+             <p>請輸入文字</p>
         </section>          
     </article>
   </div>
@@ -152,16 +165,15 @@
 </div>
 </body>
 </html>
-
 ```
 
-#接下來要幫他穿上衣服，加上CSS
+## 接下來要幫他穿上衣服，加上CSS
 
 再HTML檔案旁創建一個css資料夾，裡面再創兩個檔案，reset.css與style.css
 
-
 我們開啟style.css先在body上加入
-```
+
+```text
 body {
   width: 100%;
   margin: 0;
@@ -169,20 +181,25 @@ body {
   line-height: 1.5em;
 }
 ```
+
 再幫header加入
-```
+
+```text
 header {
   text-align: center;
   background-color:#1affff;
 }
 ```
+
 再幫nav加入
-```
+
+```text
 nav {
   background-color:#ffffcc;
 }
 ```
-```
+
+```text
 nav ul li {
   display: block;
   width: 100%;
@@ -192,8 +209,10 @@ nav ul li {
   border-bottom: 1px solid #fff;
 }
 ```
+
 幫content加入
-```
+
+```text
 #contents {
   width: 80%;
   margin: 1em auto 1em;
@@ -202,15 +221,18 @@ nav ul li {
   font-weight: bold;
 }
 ```
-讓section產生空白邊框的感覺
-```
 
+讓section產生空白邊框的感覺
+
+```text
 section {
   margin: 0 0 1em 0;
 }
 ```
+
 分別設定兩個區域的section
-```
+
+```text
 aside > section{
   height:130px;
   background-color: #00ccff;
@@ -220,8 +242,10 @@ article > section{
   border-bottom: 1px solid #ccc;
 }
 ```
+
 最後在尾端footer加上
-```
+
+```text
 footer {
   width: 100%;
   text-align: center;
@@ -231,8 +255,8 @@ footer {
 完成後長這樣
 
 style.css
-```
 
+```text
 .cf { zoom: 1; }
 .cf:before, .cf:after { content: ""; display: table; }
 .cf:after { clear: both; }
@@ -283,29 +307,33 @@ footer {
   text-align: center;
 }
 ```
-#RWD網頁通常會從手機頁面開始做，以下我們開始做給平板跟給電腦螢幕的
 
+## RWD網頁通常會從手機頁面開始做，以下我們開始做給平板跟給電腦螢幕的
 
-/* 平板：481px ～ 768px */
+/ _平板：481px ～ 768px_ /
 
-##在下面加上
-```
+### 在下面加上
+
+```text
 @media only screen and (min-width: 481px) {
 
 }
 ```
-#如何測試?
-```
+
+## 如何測試?
+
+```text
 @media only screen and (min-width: 481px) {
 body{
 background:black;
 }
 ```
+
 調整瀏覽器視窗大小，當到達時會變色
 
 1.讓nav成水平排列
 
-```
+```text
  nav ul li {
   float:left;
   width: 100px;
@@ -315,8 +343,10 @@ background:black;
   border-right: 1px solid #ccc;  
  }
 ```
+
 2.讓上面兩個方框變水平
-```
+
+```text
   #contents_menu1 {
    width: 45%;
    float: left;
@@ -327,15 +357,19 @@ background:black;
  }
 ```
 
-#For電腦
-/*  電腦：769px～960px */
-```
+## For電腦
+
+/ _電腦：769px～960px_ /
+
+```text
 @media only screen and (min-width: 769px) {
 
 }
 ```
+
 一樣先加上顏色測試
-```
+
+```text
 @media only screen and (min-width: 769px) {
  background:black;
 }
@@ -343,7 +377,7 @@ background:black;
 
 將主畫面的右邊設為
 
-```
+```text
  article.main {
    width: 65%;
    float: right;
@@ -353,16 +387,20 @@ background:black;
    float: left;
  }
 ```
+
 將主畫面左邊設為
-```
+
+```text
  #contents_menu1,
  #contents_menu2 {
    width: 95%;
    float: none;
  }
 ```
-##完成後
-```
+
+### 完成後
+
+```text
 @charset "utf-8";
 
 /* clearfix */
@@ -449,3 +487,4 @@ footer {
  }
 }
 ```
+

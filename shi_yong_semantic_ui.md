@@ -1,9 +1,8 @@
 # 使用Semantic UI
 
+[http://semantic-ui.com/](http://semantic-ui.com/)
 
-http://semantic-ui.com/
-
-```
+```text
 <!DOCTYPE HTML>
 <html>
 <head>

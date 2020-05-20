@@ -1,8 +1,8 @@
 # 使用Materialize css
 
+[http://materializecss.com/getting-started.html](http://materializecss.com/getting-started.html)
 
-http://materializecss.com/getting-started.html
-```
+```text
   <!DOCTYPE html>
   <html>
     <head>
@@ -22,3 +22,4 @@ http://materializecss.com/getting-started.html
     </body>
   </html>
 ```
+

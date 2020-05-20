@@ -1,6 +1,6 @@
 # canvas
 
-```
+```text
 <!DOCTYPE html>
 <html>
 <body>
@@ -15,7 +15,7 @@ setInterval(function(){document.getElementById("myCanvas").width+= 5},1000)
 
 </body>
 </html>
-
 ```
 
 canvas 用px為單位所以如果width屬性為%會自動轉為px，如果在style內width或height寫%則canvas的行為會亂掉
+

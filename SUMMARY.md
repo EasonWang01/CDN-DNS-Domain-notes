@@ -1,4 +1,4 @@
-# Summary
+# Table of contents
 
 * [Introduction](README.md)
 * [Web Component](chapter1.md)
@@ -26,21 +26,21 @@
 * [SVG](svg.md)
 * [Sublime快捷鍵](sublimekuai_jie_jian.md)
 * [Deploy Blog 使用 Hexo](deploy_blog_shi_yong_hexo.md)
-* [域名設定](yu_ming_she_ding.md)
+* [域名設定](yu_ming_she_ding/README.md)
   * [subdomain，清除DNS快取](yu_ming_she_ding/subdomain.md)
-* [使用cloudflare](使用cloudflare.md)
-* [使用VNC server](使用vnc-server.md)
-* [註冊域名信箱](zhu-ce-yu-ming-xin-xiang.md)
+* [使用cloudflare](shi-yong-cloudflare.md)
+* [使用VNC server](shi-yong-vncserver.md)
+* [註冊域名信箱](zhu-ce-yu-ming-xin-xiang/README.md)
   * [使用AWS SES](zhu-ce-yu-ming-xin-xiang/shi-yong-aws-ses.md)
   * [mailgun](zhu-ce-yu-ming-xin-xiang/mailgun.md)
-* [SEO](seo.md)
+* [SEO](seo/README.md)
   * [search console](seo/search-console.md)
 * [遠端連線](remote-connect.md)
 * [HTML LiveReload](html-livereload.md)
 * [ngrok與localtunnel](ngrokyu-localtunnel.md)
 * [Service worker 與 Cache](service-worker-yu-cache.md)
-* CSS Advance
-  * [z-index](z-index.md)
+* [CSS Advance](css-advance/README.md)
+  * [z-index](css-advance/z-index.md)
 * [Zeplin 搭配 Sketch](zeplin-da-pei-sketch.md)
 * [測試 IE 網頁相容性](ce-shi-ie-wang-ye-xiang-rong-xing.md)
 

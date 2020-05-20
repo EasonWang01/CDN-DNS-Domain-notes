@@ -1,12 +1,14 @@
 # CSS Grid 教學
 
+## CSS Grid 教學
+
 [https://css-tricks.com/snippets/css/complete-guide-grid/](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 CSS Grid 為一個 CSS 的 layout 方法，2-dimension 的排版方式。
 
 \(有兩個方式寫grid 以下分別說明\)
 
-# 寫法1
+## 寫法1
 
 以此為範例
 
@@ -32,7 +34,7 @@ CSS Grid 為一個 CSS 的 layout 方法，2-dimension 的排版方式。
 }
 ```
 
-```html
+```markup
 <div class="grid-container">
   <div class="grid-item header">
     <div>我是標題</div>
@@ -79,13 +81,13 @@ CSS Grid 為一個 CSS 的 layout 方法，2-dimension 的排版方式。
 }
 ```
 
-![](/assets/22.png)
+![](.gitbook/assets/22.png)
 
-# \#寫法2
+## \#寫法2
 
 直接分配每個部分要從區塊第幾個開始到第幾個結束
 
-```
+```text
 .header {
   background-color: black;
   grid-column-start: 1;
@@ -95,11 +97,11 @@ CSS Grid 為一個 CSS 的 layout 方法，2-dimension 的排版方式。
 }
 ```
 
-# \#其他align 的方法
+## \#其他align 的方法
 
 給container
 
-```
+```text
  justify-items
  align-items
  justify-content
@@ -107,10 +109,8 @@ CSS Grid 為一個 CSS 的 layout 方法，2-dimension 的排版方式。
 
 給child
 
-```
+```text
 justify-self
 align-self
 ```
-
-
 

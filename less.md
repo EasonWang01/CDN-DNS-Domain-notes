@@ -1,16 +1,18 @@
 # Less
 
-線上編輯器:
-http://winless.org/online-less-compiler
+線上編輯器: [http://winless.org/online-less-compiler](http://winless.org/online-less-compiler)
 
+## 安裝
 
-##安裝
 NPM
-```
+
+```text
 npm install less -g
 ```
+
 新建一個檔案名為test.less
-```
+
+```text
 @base: #f938ab;
 
 .box-shadow(@style, @c) when (iscolor(@c)) {
@@ -26,20 +28,24 @@ npm install less -g
   div { .box-shadow(0 0 5px, 30%) }
 }
 ```
+
 進行編譯
-```
+
+```text
 lessc test.less test.css
 ```
 
 CDN
-```
+
+```text
 <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
 ```
+
 開啟線上編繹器進行練習
 
-##1.定義變數與使用四則運算
+## 1.定義變數與使用四則運算
 
-```
+```text
 @nice-blue: #5B83AD;
 @light-blue: @nice-blue * 1.5;
 
@@ -47,9 +53,12 @@ CDN
   color: @light-blue;
 }
 ```
-##2.使用Mixin
-(將 css規則直接塞入其他css規則中)
-```
+
+## 2.使用Mixin
+
+\(將 css規則直接塞入其他css規則中\)
+
+```text
 .bordered {
   border-top: dotted 1px black;
   border-bottom: solid 2px black;
@@ -65,9 +74,12 @@ CDN
   .bordered;
 }
 ```
-##3.更加清楚的子代規則
-(以下面為例，選取id header內所有 相關class)
-```
+
+## 3.更加清楚的子代規則
+
+\(以下面為例，選取id header內所有 相關class\)
+
+```text
 #header {
   color: black;
 }
@@ -78,8 +90,10 @@ CDN
   width: 300px;
 }
 ```
+
 可寫成這樣
-```
+
+```text
 #header {
   color: black;
   .navigation {
@@ -90,8 +104,10 @@ CDN
   }
 }
 ```
+
 虛擬元素記得前面+&
-```
+
+```text
 .clearfix {
   display: block;
   zoom: 1;
@@ -106,9 +122,10 @@ CDN
   }
 }
 ```
-##4指定選擇器名稱的變數
-```
 
+## 4指定選擇器名稱的變數
+
+```text
 @mySelector: banner;
 
 .@{mySelector} {
@@ -120,6 +137,7 @@ CDN
 
 參考至:
 
-中文:http://less.bootcss.com/features/#features-overview-feature
+中文:[http://less.bootcss.com/features/\#features-overview-feature](http://less.bootcss.com/features/#features-overview-feature)
 
-英文:http://lesscss.org/
+英文:[http://lesscss.org/](http://lesscss.org/)
+

@@ -18,9 +18,9 @@
 
 在sketch 上用滑鼠圈選要引入的部分後按下`cmd + control + E`
 
-![](/assets/Screen Shot 2018-11-26 at 11.56.46 AM.png)
+![](.gitbook/assets/Screen%20Shot%202018-11-26%20at%2011.56.46%20AM.png)
 
 之後於 Zeplin即可看到
 
-![](/assets/Screen Shot 2018-11-26 at 11.57.38 AM.png)
+![](.gitbook/assets/Screen%20Shot%202018-11-26%20at%2011.57.38%20AM.png)
 

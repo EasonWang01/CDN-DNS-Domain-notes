@@ -1,30 +1,32 @@
-# 介紹
+# 使用cloudflare
+
+## 介紹
 
 他會幫你在你的網站server前再加一道防護，你可以去你的DNS provider中把ns\(name server\)改成cloudflare提供的兩個位置即可
 
-> 在Cloudflare找到如下的兩個位置的Name Server![](/assets/Screen Shot 2018-08-15 at 5.49.00 PM.png)
+> 在Cloudflare找到如下的兩個位置的Name Server![](.gitbook/assets/Screen%20Shot%202018-08-15%20at%205.49.00%20PM.png)
 
-Godaddy畫面如下，加入剛才的兩個位置![](/assets/Screen Shot 2018-08-15 at 5.50.05 PM.png)
+Godaddy畫面如下，加入剛才的兩個位置![](.gitbook/assets/Screen%20Shot%202018-08-15%20at%205.50.05%20PM.png)
 
 加完了以後再回到cloudflare點選右邊藍色的Recheck按鈕即可。
 
 加上A紀錄。
 
-![](/assets/Screen Shot 2018-08-15 at 5.57.44 PM.png)
+![](.gitbook/assets/Screen%20Shot%202018-08-15%20at%205.57.44%20PM.png)
 
 之後要等一小時左右，讓NameServer 生效。
 
-# 使用
+## 使用
 
 照著官網步驟即可，但注意在搜尋DNS設定時可能有些不會找到，要自己加上去
 
-# 設定SSL
+## 設定SSL
 
 [https://support.cloudflare.com/hc/en-us/articles/200170416-What-do-the-SSL-options-mean-](https://support.cloudflare.com/hc/en-us/articles/200170416-What-do-the-SSL-options-mean-)
 
 進入dashboard後點選Crypto之後ssl有三個選項
 
-```
+```text
 Full   會自動偵測你的主機server內是否有設定SSL證書,自行簽發的即可
 
 Full(Strict)  必須要有合格機構簽發的SSL證書才能
@@ -36,7 +38,7 @@ Flexible  不用證書它會自動幫你上https
 >
 > 其中pem與key是從Crypto頁下方的`Origin Certificates` 產生。
 >
-> ```
+> ```text
 > ssl on;
 > ssl_certificate /usr/test/c.pem;
 > ssl_certificate_key /usr/test/c.key;
@@ -46,7 +48,7 @@ Flexible  不用證書它會自動幫你上https
 
 官網說明
 
-```
+```text
 Flexible SSL: There is an encrypted connection between your website visitors and Cloudflare, but not from Cloudflare to your server.
 You do not need an SSL certificate on your server
 Visitors will see the SSL lock icon in their browser
@@ -62,13 +64,13 @@ Visitors will see the SSL lock icon in their browser
 
 > 配置後要等一下才會生效\(可能到幾個小時\)，如果是讓github page 自訂域名後用https，設定要選Flexible
 
-# 用 Full SSL
+## 用 Full SSL
 
-> 在下圖產生 key 和 pem。![](/assets/Screen Shot 2018-11-08 at 5.54.22 PM.png)private key 只有第一次產生時會顯示。
+> 在下圖產生 key 和 pem。![](.gitbook/assets/Screen%20Shot%202018-11-08%20at%205.54.22%20PM.png)private key 只有第一次產生時會顯示。
 
 之後到 nginx 設定如下：
 
-```
+```text
 server {
   server_name test.com;
   listen 443;
@@ -78,13 +80,13 @@ server {
 }
 ```
 
-# 用 Flexible SSL
+## 用 Flexible SSL
 
 如果用nginx，則在nginx設置好80 port後在https網址即可看到
 
 [https://xblockchain.co](https://xblockchain.co)
 
-```
+```text
 server {
         listen 80;
         server_name xblockchain.co;
@@ -94,7 +96,7 @@ server {
 }
 ```
 
-#### 產生 redirect loop Error
+### 產生 redirect loop Error
 
 > 如果設定為`flexible SSL` 打開網頁一直顯示 redirect error 可參考：
 >
@@ -104,11 +106,11 @@ server {
 >
 > 所以如果 nginx 有寫 redirect 的話必須用 Full SSL。
 
-# 使用cloudflare後Nginx在配置Https不用監聽著443
+## 使用cloudflare後Nginx在配置Https不用監聽著443
 
 > 都監聽著80即可。
 
-```
+```text
 server {
         listen 80;
 
@@ -132,9 +134,9 @@ server {
 }
 ```
 
-# 使用nginx搭配cloudflare配置https\(Origin certificate\)
+## 使用nginx搭配cloudflare配置https\(Origin certificate\)
 
-> 先前是指在browser到cloudflare有加密SSL  這個是在cloudflare到你的server這段也加上SSL
+> 先前是指在browser到cloudflare有加密SSL 這個是在cloudflare到你的server這段也加上SSL
 
 [https://support.cloudflare.com/hc/en-us/articles/217471977](https://blog.cloudflare.com/cloudflare-ca-encryption-origin/)
 
@@ -142,23 +144,23 @@ server {
 
 然後往下拉點選\`Create certificate\`
 
-![](/assets/螢幕快照 2017-05-30 下午2.29.02.png)
+![](.gitbook/assets/螢幕快照%202017-05-30%20下午2.29.02.png)
 
 之後會給你pem跟key，複製起來存到主機中
 
 之後加nginx的config加上
 
-![](/assets/螢幕快照 2017-05-30 下午2.24.27.png)
+![](.gitbook/assets/螢幕快照%202017-05-30%20下午2.24.27.png)
 
-# 目前範例配置
+## 目前範例配置
 
-\(上面的A記錄為subdomain\)下面ＣＮＡＭＥ與MX,TXT為mail使用![](/assets/螢幕快照 2017-05-30 下午2.31.08.png)
+\(上面的A記錄為subdomain\)下面ＣＮＡＭＥ與MX,TXT為mail使用![](.gitbook/assets/螢幕快照%202017-05-30%20下午2.31.08.png)
 
 Origin Certificate是我們想在Server上安裝時需要申請的，而Edge Certificate是cloudflare自動產生的，不用理會。
 
 其中pem與key，pem下次點選網頁上Download按鈕還可以看到，但Key下一次點進來就看不到了。
 
-# 注意:
+## 注意:
 
 有時使用Github page設定subdomain域名但還是找不到，換一個subdomain即可。
 
@@ -166,11 +168,11 @@ Origin Certificate是我們想在Server上安裝時需要申請的，而Edge Cer
 
 E.g.
 
-```
+```text
 aa.cc.ni.com/
 ```
 
-# 在Github page加上apex domain
+## 在Github page加上apex domain
 
 （apex domain就是沒有subdomain的domain\)
 
@@ -178,11 +180,9 @@ aa.cc.ni.com/
 
 [https://help.github.com/articles/setting-up-an-apex-domain/\#configuring-a-records-with-your-dns-provider](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)
 
-# 轉導域名到subdomain
+## 轉導域名到subdomain
 
 點選 Page Rules
 
-![](/assets/Screen Shot 2019-02-07 at 5.23.25 PM.png)
-
-
+![](.gitbook/assets/Screen%20Shot%202019-02-07%20at%205.23.25%20PM.png)
 

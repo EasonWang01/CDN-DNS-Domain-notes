@@ -1,11 +1,13 @@
 # SVG
 
+## SVG
+
 ### 沿著path移動
 
 使用inkscape畫一條線，存成SVG  
 類似如下
 
-```
+```text
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
@@ -71,7 +73,7 @@
 
 刪除不必要的東西後簡化如下
 
-```
+```text
 <svg
 
    width="210mm"
@@ -89,7 +91,7 @@
 
 再使用MOTIONPATH，並加入一個藍色方塊
 
-```
+```text
 <html>
  <head>
   <script type="application/javascript">
@@ -120,11 +122,11 @@
 </html>
 ```
 
-# 移動SVG位置
+## 移動SVG位置
 
 加入g元素，然後使用translate\(x, y\)
 
-```js
+```javascript
 <g transform="translate(20,2.5) rotate(10)">
     <rect x="0" y="0" width="60" height="10"/>
 </g>
@@ -132,7 +134,7 @@
 
 [https://stackoverflow.com/questions/479591/svg-positioning](https://stackoverflow.com/questions/479591/svg-positioning)
 
-# SVG動畫
+## SVG動畫
 
 SVG上的屬性可以直接當作css的屬性控制
 
@@ -153,13 +155,11 @@ css
 
 html
 
-```html
+```markup
 <svg height="500" width="500">
   <g transform="translate(120, 120) rotate(10)">
     <circle id="circle1" cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="white" />
   </g>
 </svg>
 ```
-
-
 

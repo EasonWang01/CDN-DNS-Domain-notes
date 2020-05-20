@@ -1,4 +1,4 @@
-# Service worker 與 cache
+# Service worker 與 Cache
 
 [https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker](https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker)
 
@@ -6,7 +6,7 @@
 
 要用如下指令
 
-```js
+```javascript
 caches.keys().then(function(names) {
     for (let name of names)
     caches.delete(name);
@@ -16,6 +16,4 @@ caches.keys().then(function(names) {
 [https://stackoverflow.com/a/46597656](https://stackoverflow.com/a/46597656)
 
 > 例如create-react-app
-
-
 

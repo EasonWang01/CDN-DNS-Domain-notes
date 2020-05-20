@@ -6,7 +6,7 @@
 
 2.下載 win 10
 
-3. 按照如下網頁設定
+1. 按照如下網頁設定
 
 [https://medium.com/oceanize-geeks/install-windows-10-7-on-mac-using-virtualbox-109be82b6037](https://medium.com/oceanize-geeks/install-windows-10-7-on-mac-using-virtualbox-109be82b6037)
 
@@ -16,15 +16,13 @@
 
 > EX: localhost 使用自訂的網域 ccc.com
 
-1.更改 host file: https://stackoverflow.com/a/22723681
+1.更改 host file: [https://stackoverflow.com/a/22723681](https://stackoverflow.com/a/22723681)
 
 2.引入憑證：
 
-```
+```text
 1. 進入主控台(control panel)
 2. 網際網路 => 內容 => 憑證 => 受信任的根憑證授權單位
 3. 點選匯入，然後選自己簽發的 crt 憑證
 ```
-
-
 

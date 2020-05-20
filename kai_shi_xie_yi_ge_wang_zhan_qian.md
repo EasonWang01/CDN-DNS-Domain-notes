@@ -1,8 +1,10 @@
 # 開始寫一個網站前
 
-#使用Reset css
-```
+## 開始寫一個網站前
 
+## 使用Reset css
+
+```text
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -30,7 +32,7 @@ body {
 
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section { 
-	display:block;
+    display:block;
 }
 
 nav ul {
@@ -97,23 +99,26 @@ hr {
 input, select {
     vertical-align:middle;
 }
+```
 
-```
 使用
-```
+
+```text
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
 ```
 
 使用clearfix
-```
+
+```text
 .cf { zoom: 1; }
 .cf:before, .cf:after { content: ""; display: table; }
 .cf:after { clear: both; }
+```
 
-```
-#基礎架構
-```
+## 基礎架構
+
+```text
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -128,3 +133,4 @@ input, select {
 </body>
 </html>
 ```
+

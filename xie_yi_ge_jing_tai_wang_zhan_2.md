@@ -1,9 +1,12 @@
 # 寫一個靜態網站2
 
-https://github.com/EasonWang01/web-basic-template1
+## 寫一個靜態網站2
+
+[https://github.com/EasonWang01/web-basic-template1](https://github.com/EasonWang01/web-basic-template1)
 
 下載好後，我們先把html和css檔案清空，重新寫一次
-```
+
+```text
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -29,18 +32,18 @@ https://github.com/EasonWang01/web-basic-template1
 <!-- header -->
   <header id="header">
     <h1 id="top"><p> web example by yicheng</p></h1>
-  
+
     <ul id="s_nav" class="cf">
-	 <img id="img1" src="images/icn_contact.jpg" />
+     <img id="img1" src="images/icn_contact.jpg" />
       <li class="contact"><a href="#">contact</a></li>
-	  <img src="images/icn_news.jpg" />
-	  <li class="news"><a href="#">news</a></li>
-	  <img src="images/icn_sitemap.jpg" />
+      <img src="images/icn_news.jpg" />
+      <li class="news"><a href="#">news</a></li>
+      <img src="images/icn_sitemap.jpg" />
       <li class="sitemap"><a href="#">sitemap</a></li>
     </ul>
     <p><img src="images/topImage.jpg" alt="Make a Responsivesite"></p>
   </header>
-  
+
 <!-- global navigation -->
   <nav id="nav">
     <ul class="cf">
@@ -52,34 +55,34 @@ https://github.com/EasonWang01/web-basic-template1
       <li class="contact"><a href="#"><img src="images/nav_contact.jpg" width="74" height="48" alt="contact"></a></li>
     </ul>
   </nav>
-  
+
 <!-- content area -->
   <div id="contents" class="cf"> 
     <section id="work" class="cf">
-      
+
       <article>
        <a href="#"> <img src="images/1.png" width="184" height="160" alt="work1"></a>
-       
+
         <h2>你好</h2>
       </article>
       <article>
       <a href="#">  <img src="images/2.png" width="184" height="160" alt="work1"></a>
-        
+
         <h2>歡迎</h2>
       </article>
       <article>
         <a href="#">  <img src="images/3.png" width="184" height="160" alt="work1"></a>
-       
+
         <h2>來到</h2>
       </article>
       <article>
        <a href="#">   <img src="images/4.png" width="184" height="160" alt="work1"></a>
-       
+
         <h2>web</h2>
       </article>
       <article>
        <a href="#">   <img src="images/5.png" width="184" height="160" alt="work1"></a>
-      
+
         <h2>基礎班</h2>
       </article>
     </section>
@@ -108,7 +111,7 @@ https://github.com/EasonWang01/web-basic-template1
       </ul>
     </section>
   </div>
-  
+
 <!-- page top button -->
   <a id="pagetopBtn" href="#top"><img src="images/icn_pagetop.jpg" width="40" height="60" alt="pagetop"></a>
   <!-- href="#top 帶你到頁面帶有id="top"的地方  -->
@@ -116,23 +119,21 @@ https://github.com/EasonWang01/web-basic-template1
   <footer id="footer">
     <div>
       <p>web example by yicheng</p>
-      
+
       <p><small id="small">Copyright &copy; 2016 Responsive corporation. All Rights Reserved.</small></p>
     </div>
   </footer>
-  
+
 </div>
 </body>
 </html>
-
-
-
 ```
 
 css
 
 1.
-```
+
+```text
 /* 把連結的字變黑色，底線去掉 */
 a {
   color:#000;
@@ -141,68 +142,85 @@ a {
 ```
 
 2.header置中
-```
+
+```text
 header {
   text-align:center;
 }
 ```
+
 3
-```
+
+```text
 /* 把header往下拉一點 */
 header h1 {
   padding:25px  ; 
 }
 ```
+
 4.
-```
+
+```text
 /* 設定圖案 */
 
 p img{
 width:100%;
 }
 ```
+
 5.
-```
+
+```text
 nav{
 text-align:center;
 }
 ```
 
 6.
-```
+
+```text
 #contents{
 text-align:center;
 }
 ```
+
 7.
-```
+
+```text
 article h3 {
 padding:20px;
 }
 ```
+
 8.
-```
+
+```text
 #information{
 padding:20px;
 }
 ```
+
 9.
-```
+
+```text
 #information img{
 width:100%;
 }
 ```
+
 10
-```
+
+```text
 #pagetopBtn{
 position:fixed;
 bottom:0px;
 right:0px;
 }
 ```
-11
-```
 
+11
+
+```text
 #footer p,small{
 text-align:center;
 font-size:5px;
@@ -210,24 +228,27 @@ font-size:5px;
 ```
 
 接著做給平板用的版型
-```
 
+```text
 /* For 平板 */
 @media only screen and (min-width:481px){
 
 
 }
 ```
+
 一樣先放black做測試大小
-```
+
+```text
 body{
- 
+
 background:black;
 }
+```
 
-```
 刪掉BODY後，先調nav
-```
+
+```text
 @media only screen and (min-width:481px){
 
 nav ul li {
@@ -241,19 +262,20 @@ nav ul li {
 
 
 }
+```
 
-```
 再來設定下面
-```
+
+```text
 #work article{
 float:left;
 width:50%;
 }
-
 ```
 
- ##For 電腦螢幕 
-```
+### For 電腦螢幕
+
+```text
 /* For 電腦螢幕 */
 @media only screen and (min-width:961px){
 nav ul li {
@@ -261,8 +283,10 @@ nav ul li {
 }
 }
 ```
+
 調整最上方
-```
+
+```text
 header h1{
 float:left;
 }
@@ -275,14 +299,15 @@ float:left;
 margin-right:5px;
 }
 ```
-```
+
+```text
 header ul{
 float:right;
 margin-top:25px;
 }
 ```
 
-```
+```text
 #work article{
 float:left;
 width:20%;
@@ -290,15 +315,17 @@ width:20%;
 ```
 
 從手機板慢慢拉到電腦版，發現最左上方怪怪的，須點F5，畫面才變正常，原因是ul大小在畫面拉大時沒跟著變，所以要幫他變大，才塞的下東西
-```
+
+```text
 header ul{
 width:30%;
 margin-right:-100px;
 }
 ```
+
 最後
 
-```
+```text
 #news{
 width:40%;
 position:absolute;
@@ -308,13 +335,11 @@ position:absolute;
 width:40%;
 float:right;
 }
-
-
 ```
 
+## 完成後
 
-#完成後
-```
+```text
 /* 把連結的字變黑色，底線去掉 */
 a {
   color:#000;
@@ -446,3 +471,4 @@ float:right;
 
 }
 ```
+

@@ -1,20 +1,20 @@
-# LiveReload
+# HTML LiveReload
+
+## LiveReload
 
 讓code更新後不用手動刷新瀏覽器
 
-
-
-# \#使用方法
+## \#使用方法
 
 1.
 
-```
+```text
 npm install -g livereload
 ```
 
 2.把以下這段加到html
 
-```js
+```javascript
 <script>
   document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
   ':35729/livereload.js?snipver=1"></' + 'script>')
@@ -23,9 +23,9 @@ npm install -g livereload
 
 3.在command line輸入
 
-```
+```text
 livereload <html的路徑>
 ```
 
-4.然後開啟瀏覽器輸入`localhost:35729 `
+4.然後開啟瀏覽器輸入`localhost:35729`
 
