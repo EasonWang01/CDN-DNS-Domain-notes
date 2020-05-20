@@ -38,3 +38,5 @@ const findPropsReg = new RegExp(`${fileName}.propTypes(.|\n)+.+`, 'g')
 
 ## test
 
+123
+
