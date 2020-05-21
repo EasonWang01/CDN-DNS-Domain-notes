@@ -36,7 +36,9 @@ const findPropsReg = new RegExp(`${fileName}.propTypes(.|\n)+.+`, 'g')
 
 {% embed url="https://stackoverflow.com/questions/7124778/how-to-match-anything-up-until-this-sequence-of-characters-in-a-regular-expres" %}
 
-## test
+## exec vs match
 
-123
+用Match 的話就會幫你找出所有匹配的部分並回傳 array，如果用 exec就算加上 g還是要放在loop內
+
+[https://stackoverflow.com/questions/9214754/what-is-the-difference-between-regexp-s-exec-function-and-string-s-match-fun](https://stackoverflow.com/questions/9214754/what-is-the-difference-between-regexp-s-exec-function-and-string-s-match-fun)
 
