@@ -6,7 +6,7 @@
 
 小寫S [http://www.w3schools.com/jsref/jsref\_regexp\_whitespace.asp](http://www.w3schools.com/jsref/jsref_regexp_whitespace.asp)
 
-搜尋中文與英文字母
+## 搜尋中文與英文字母
 
 ```text
 var re = /\w+|[\u0800-\u9fa5]+/g
@@ -40,5 +40,22 @@ const findPropsReg = new RegExp(`${fileName}.propTypes(.|\n)+.+`, 'g')
 
 用Match 的話就會幫你找出所有匹配的部分並回傳 array，如果用 exec就算加上 g還是要放在loop內
 
-[https://stackoverflow.com/questions/9214754/what-is-the-difference-between-regexp-s-exec-function-and-string-s-match-fun](https://stackoverflow.com/questions/9214754/what-is-the-difference-between-regexp-s-exec-function-and-string-s-match-fun)
+{% embed url="https://stackoverflow.com/questions/9214754/what-is-the-difference-between-regexp-s-exec-function-and-string-s-match-fun" %}
+
+## Invalid regular expression: /\({/: Unterminated group
+
+當我們使用 \({ 之類必須要用 \ 跳脫
+
+但 new Regexp 如果第一個參數是 string 要用兩個 \
+
+```javascript
+"ddf vd ({ dd })".match(new RegExp(/\(\{/, 'g'))
+// ["({"]
+```
+
+以及
+
+```javascript
+"ddf vd ({ dd })".match(new RegExp("\\(\\{", 'g'))
+```
 
