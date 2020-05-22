@@ -38,7 +38,15 @@ const findPropsReg = new RegExp(`${fileName}.propTypes(.|\n)+.+`, 'g')
 
 ## exec vs match
 
-用Match 的話就會幫你找出所有匹配的部分並回傳 array，如果用 exec就算加上 g還是要放在loop內
+1. 用Match 的話就會幫你找出所有匹配的部分並回傳 array，如果用 exec就算加上 g還是要放在loop內
+2. exec 如果regexp內有 \(\) 的話 裡面匹配的部分會另外顯示在回傳值第二個參數
+
+```javascript
+var myArray = /d(b+)d/g.exec('cdbbdbsbz'); 
+// similar to "cdbbdbsbz".match(/d(b+)d/g); however,
+    // the latter outputs Array [ "dbbd" ], while 
+    // /d(b+)d/g.exec('cdbbdbsbz') outputs Array [ "dbbd", "bb" ].
+```
 
 {% embed url="https://stackoverflow.com/questions/9214754/what-is-the-difference-between-regexp-s-exec-function-and-string-s-match-fun" %}
 
