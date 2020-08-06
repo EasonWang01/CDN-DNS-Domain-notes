@@ -94,3 +94,9 @@ https://easonwang01.github.io/classPPT
 https://easonwang01.github.io/classPPT//
 ```
 
+## Authoritative name server
+
+會返回 domain 指向的 IP address，與 recursive name server不同的地方為他是已經寫好什麼 domain 對應什麼 IP，不用去問其他 DNS server。
+
+[https://www.dnsknowledge.com/whatis/authoritative-name-server/](https://www.dnsknowledge.com/whatis/authoritative-name-server/)
+
