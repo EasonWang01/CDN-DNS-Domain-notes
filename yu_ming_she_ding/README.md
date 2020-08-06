@@ -98,5 +98,11 @@ https://easonwang01.github.io/classPPT//
 
 會返回 domain 指向的 IP address，與 recursive name server不同的地方為他是已經寫好什麼 domain 對應什麼 IP，不用去問其他 DNS server。
 
-[https://www.dnsknowledge.com/whatis/authoritative-name-server/](https://www.dnsknowledge.com/whatis/authoritative-name-server/)
+```text
+host -t ns dnsknowledge.com
+```
+
+{% embed url="https://www.dnsknowledge.com/whatis/authoritative-name-server/" %}
+
+[https://serverfault.com/questions/413124/dns-nslookup-what-is-the-meaning-of-the-non-authoritative-answer](https://serverfault.com/questions/413124/dns-nslookup-what-is-the-meaning-of-the-non-authoritative-answer)
 
