@@ -81,7 +81,7 @@ CSS Grid 為一個 CSS 的 layout 方法，2-dimension 的排版方式。
 }
 ```
 
-![](.gitbook/assets/22.png)
+![](../.gitbook/assets/22.png)
 
 ## \#寫法2
 

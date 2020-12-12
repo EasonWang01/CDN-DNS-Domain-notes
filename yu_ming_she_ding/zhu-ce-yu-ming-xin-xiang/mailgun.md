@@ -4,11 +4,11 @@
 
 到網站照著步驟加入MX與TXT
 
-![](../.gitbook/assets/螢幕快照%202018-01-21%20下午6.56.11.png)
+![](../../.gitbook/assets/螢幕快照%202018-01-21%20下午6.56.11.png)
 
 然後按下下圖按鈕即可認證
 
-![](../.gitbook/assets/52.png)
+![](../../.gitbook/assets/52.png)
 
 最下面cname部分之前試都無法認證，還需要研究一下，但不影響發送郵件
 
@@ -26,11 +26,11 @@
 
 先點選Route，然後設定要將你的domain接收的郵件導向哪個信箱\(這邊導向jason40115@hotmail.com為例子\)
 
-![](../.gitbook/assets/2.png)
+![](../../.gitbook/assets/2.png)
 
 然後設定
 
-![](../.gitbook/assets/3.png)之後寫信給\`admin@rent.sakatu.com\`隔一下子就可以在jason40115@hotmail.com收到
+![](../../.gitbook/assets/3.png)之後寫信給\`admin@rent.sakatu.com\`隔一下子就可以在jason40115@hotmail.com收到
 
 ### 使用API發送郵件
 
