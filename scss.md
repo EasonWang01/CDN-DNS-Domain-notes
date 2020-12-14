@@ -8,6 +8,7 @@ SASS 跟 SCSS 類似，不過寫法上 SASS 可以不用寫大括號，但 SCSS 
 2. import 可以引入檔案，include 可以把之前寫的 mixin 引入到某個 css rule 內
 3. mixin 也可加上參數功能
 4. 用 % 定義然後用 @extend 引入，@extend 也可直接引入其他寫好的樣式
+5. 某個元素的 {} 內的元素代表作用於其千套內 
 
 [https://frankknow.com/sass-tutorial/](https://frankknow.com/sass-tutorial/)
 
