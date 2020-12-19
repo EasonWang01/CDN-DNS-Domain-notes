@@ -152,6 +152,8 @@ server {
 
 ![](.gitbook/assets/螢幕快照%202017-05-30%20下午2.24.27.png)
 
+> 在 browser 如果直接輸入 API 位置的話會出現 untrusted certificate 是正常的（只要看到 certificate 的到期日是符合 Cloudflare 上的即可 ，可以直接發請求給 HTTPS 的 Endpoint 沒問題。
+
 ## 目前範例配置
 
 \(上面的A記錄為subdomain\)下面ＣＮＡＭＥ與MX,TXT為mail使用![](.gitbook/assets/螢幕快照%202017-05-30%20下午2.31.08.png)
