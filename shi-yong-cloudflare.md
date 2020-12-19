@@ -188,3 +188,9 @@ aa.cc.ni.com/
 
 ![](.gitbook/assets/Screen%20Shot%202019-02-07%20at%205.23.25%20PM.png)
 
+## Github pages 強制使用 HTTPS URL
+
+> 原本在 github pages 的 enforce HTTPS 會無法勾選，需要到 cloudflare 的 page rules 設置。
+
+![](.gitbook/assets/jie-tu-20201219-xia-wu-8.29.07.png)
+
