@@ -37,6 +37,7 @@
 * [使用cloudflare](shi-yong-cloudflare.md)
 * [使用VNC server](shi-yong-vncserver.md)
 * [SEO](seo/README.md)
+  * [Sitemap](seo/sitemap.md)
   * [search console](seo/search-console.md)
 * [遠端連線](remote-connect.md)
 * [HTML LiveReload](html-livereload.md)
