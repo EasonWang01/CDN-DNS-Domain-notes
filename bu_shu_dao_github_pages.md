@@ -226,3 +226,7 @@ e.g.
 
 之後 yarn build 後 cd build && serve 即可測試，重新整理後不會找不到路徑了
 
+## github.io/&lt;路徑&gt; 下的路徑
+
+[https://github.com/facebook/create-react-app/issues/1765](https://github.com/facebook/create-react-app/issues/1765)
+
