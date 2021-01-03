@@ -131,10 +131,6 @@ flex: 1 1 20em (shorthand for flex-grow: 1, flex-shrink: 1, flex-basis: 20em)
 align-self: auto | flex-start | flex-end | center | baseline | stretch;
 ```
 
-## 相關問題
-
-1.如果在子元件 flex 1 這樣設定沒反應，但設定 width 有反應，則可能是 text overflow，把子組建的 width 移除然後加上 overflow: hidden，然後再設定一次 flex: 1 與另一元件為 flex: 2試試
-
 ## 相關題目：
 
 [https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/381\#issuecomment-706830714](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/381#issuecomment-706830714)
