@@ -73,7 +73,7 @@ div {
 
 > em是用來相對直接外層元素的大小，rem是相對根元素。
 
-## 置底的元素
+## 元素保持置底
 
 ```markup
 <div class="container">
