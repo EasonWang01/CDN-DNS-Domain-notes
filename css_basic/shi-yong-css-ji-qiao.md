@@ -73,3 +73,41 @@ div {
 
 > em是用來相對直接外層元素的大小，rem是相對根元素。
 
+## 置底的元素
+
+```markup
+<div class="container">
+  <div class="left">
+
+  </div>
+  <div class="right">
+    <div class="progress">I'm progress bar</div>
+</div>
+```
+
+```text
+.container {
+  display: flex;
+  width: 500px;
+  height: 1200px;
+}
+
+.left {
+  flex: 1;
+  background: blue;
+}
+
+.right {
+  flex: 1;
+  background: yellow;
+  transform: scale(1);
+}
+
+.progress {
+  width: 100%;
+  position: fixed;
+  background: gray;
+  bottom: 0;
+}
+```
+
