@@ -111,3 +111,7 @@ div {
 }
 ```
 
+### 左右兩邊各一個 scroll bar
+
+兩邊設定 `height: 100vh; overflow-y: scroll;`
+
