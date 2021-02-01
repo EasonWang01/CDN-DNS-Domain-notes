@@ -22,6 +22,8 @@ Godaddy畫面如下，加入剛才的兩個位置![](.gitbook/assets/Screen%20Sh
 
 ## 設定SSL
 
+> 產生 origin certificate 即可，client certificate 可以不用
+
 [https://support.cloudflare.com/hc/en-us/articles/200170416-What-do-the-SSL-options-mean-](https://support.cloudflare.com/hc/en-us/articles/200170416-What-do-the-SSL-options-mean-)
 
 進入dashboard後點選Crypto之後ssl有三個選項
