@@ -22,7 +22,7 @@ Godaddy畫面如下，加入剛才的兩個位置![](.gitbook/assets/Screen%20Sh
 
 ## 設定SSL
 
-> 產生 origin certificate 即可，client certificate 可以不用
+> 產生 origin certificate 即可，client certificate 可以不用，然後如果 server 是放在自己 host 的就選擇 full，放在 github 之類的選擇 Flexible
 
 [https://support.cloudflare.com/hc/en-us/articles/200170416-What-do-the-SSL-options-mean-](https://support.cloudflare.com/hc/en-us/articles/200170416-What-do-the-SSL-options-mean-)
 
