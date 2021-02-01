@@ -148,6 +148,10 @@ server {
 
 之後會給你pem跟key，複製起來存到主機中
 
+並且在 cloudflare dns 加上 A 記錄，輸入 api subdomain 名稱
+
+![](.gitbook/assets/jie-tu-20210201-shang-wu-10.26.08.png)
+
 之後加nginx的config加上
 
 ![](.gitbook/assets/螢幕快照%202017-05-30%20下午2.24.27.png)
