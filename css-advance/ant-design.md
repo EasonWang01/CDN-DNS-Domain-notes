@@ -165,12 +165,10 @@ export default CreateOrder;
 
 ```text
   const [form] = Form.useForm();
-  
-  React.useEffect(() => {
+  ．．．
     form.setFieldsValue({
       username: 'Mario',
     });
-  }, []);
 ```
 
 然後
