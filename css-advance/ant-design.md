@@ -161,3 +161,30 @@ export default CreateOrder;
 
 ```
 
+## 設定表單 input value
+
+```text
+  const [form] = Form.useForm();
+  
+  React.useEffect(() => {
+    form.setFieldsValue({
+      username: 'Mario',
+    });
+  }, []);
+```
+
+然後
+
+```text
+    <Form
+        {...layout}
+        name="basic"
+        initialValues={{
+            remember: true,
+        }}
+        form={form} // Add this!
+    >
+```
+
+[https://stackoverflow.com/a/62855456/4622645](https://stackoverflow.com/a/62855456/4622645)
+
