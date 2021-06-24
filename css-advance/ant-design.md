@@ -184,5 +184,9 @@ export default CreateOrder;
     >
 ```
 
-[https://stackoverflow.com/a/62855456/4622645](https://stackoverflow.com/a/62855456/4622645)
+{% embed url="https://stackoverflow.com/a/62855456/4622645" %}
+
+> 如果 datasource 更新但 table cell 沒更新，必須用 clone 的方式來更新 state
+
+![](../.gitbook/assets/jie-tu-20210624-xia-wu-12.36.38.png)
 
