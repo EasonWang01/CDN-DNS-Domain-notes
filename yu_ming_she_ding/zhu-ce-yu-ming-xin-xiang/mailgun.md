@@ -30,7 +30,7 @@
 
 然後設定
 
-![](../../.gitbook/assets/3.png)之後寫信給\`admin@rent.sakatu.com\`隔一下子就可以在jason40115@hotmail.com收到
+![](../../.gitbook/assets/3.png)之後寫信給 `admin@rent.sakatu.com`
 
 ### 使用API發送郵件
 
