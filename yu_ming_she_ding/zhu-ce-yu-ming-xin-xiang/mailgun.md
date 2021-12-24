@@ -1,10 +1,10 @@
 # mailgun
 
-[https://www.mailgun.com/](https://www.mailgun.com/)
+[https://www.mailgun.com/](https://www.mailgun.com)
 
 到網站照著步驟加入MX與TXT
 
-![](../../.gitbook/assets/螢幕快照%202018-01-21%20下午6.56.11.png)
+![](<../../.gitbook/assets/螢幕快照 2018-01-21 下午6.56.11.png>)
 
 然後按下下圖按鈕即可認證
 
@@ -22,9 +22,9 @@
 
 4.確認有加入DKIM與SPF
 
-## \#接收郵件
+## #接收郵件
 
-先點選Route，然後設定要將你的domain接收的郵件導向哪個信箱\(這邊導向jason40115@hotmail.com為例子\)
+先點選Route，然後設定要將你的domain接收的郵件導向哪個信箱
 
 ![](../../.gitbook/assets/2.png)
 
@@ -62,13 +62,12 @@ mailgun.messages().send(data, function (error, body) {
 >
 > 2.可以點選Mailgun網站上的Logs Tab查看是否發送成功。
 >
-> 之前發送給Gmail失敗出現`Free accounts are for test purposes only. Please upgrade or add the address to authorized recipients in Account Settings.` 訊息，之後加入信用卡後就發送成功了\(剛加完寄送大約到等五分鐘才到\)。
+> 之前發送給Gmail失敗出現`Free accounts are for test purposes only. Please upgrade or add the address to authorized recipients in Account Settings.` 訊息，之後加入信用卡後就發送成功了(剛加完寄送大約到等五分鐘才到)。
 >
 > 3.目前Hotmail會進入垃圾信箱。
 >
 > 4.目前Route設定hotmail信箱可能會產生以下錯誤。
 >
-> ```text
+> ```
 > Please contact your Internet service provider since part of their network is on our block list (AS3140)
 > ```
-
