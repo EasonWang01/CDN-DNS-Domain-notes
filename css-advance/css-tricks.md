@@ -19,3 +19,7 @@
       >
       ....
 ```
+
+## 3.Noise Animation
+
+[https://css-tricks.com/snippets/css/animated-grainy-texture/](https://css-tricks.com/snippets/css/animated-grainy-texture/)
