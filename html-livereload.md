@@ -4,11 +4,11 @@
 
 讓code更新後不用手動刷新瀏覽器
 
-## \#使用方法
+## #使用方法
 
-1.
+1\.
 
-```text
+```
 npm install -g livereload
 ```
 
@@ -23,9 +23,8 @@ npm install -g livereload
 
 3.在command line輸入
 
-```text
+```
 livereload <html的路徑>
 ```
 
 4.然後開啟瀏覽器輸入`localhost:35729`
-

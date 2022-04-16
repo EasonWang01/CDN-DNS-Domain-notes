@@ -6,7 +6,7 @@
 
 下載好後，我們先把html和css檔案清空，重新寫一次
 
-```text
+```
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -131,9 +131,9 @@
 
 css
 
-1.
+1\.
 
-```text
+```
 /* 把連結的字變黑色，底線去掉 */
 a {
   color:#000;
@@ -143,7 +143,7 @@ a {
 
 2.header置中
 
-```text
+```
 header {
   text-align:center;
 }
@@ -151,16 +151,16 @@ header {
 
 3
 
-```text
+```
 /* 把header往下拉一點 */
 header h1 {
   padding:25px  ; 
 }
 ```
 
-4.
+4\.
 
-```text
+```
 /* 設定圖案 */
 
 p img{
@@ -168,41 +168,41 @@ width:100%;
 }
 ```
 
-5.
+5\.
 
-```text
+```
 nav{
 text-align:center;
 }
 ```
 
-6.
+6\.
 
-```text
+```
 #contents{
 text-align:center;
 }
 ```
 
-7.
+7\.
 
-```text
+```
 article h3 {
 padding:20px;
 }
 ```
 
-8.
+8\.
 
-```text
+```
 #information{
 padding:20px;
 }
 ```
 
-9.
+9\.
 
-```text
+```
 #information img{
 width:100%;
 }
@@ -210,7 +210,7 @@ width:100%;
 
 10
 
-```text
+```
 #pagetopBtn{
 position:fixed;
 bottom:0px;
@@ -220,7 +220,7 @@ right:0px;
 
 11
 
-```text
+```
 #footer p,small{
 text-align:center;
 font-size:5px;
@@ -229,7 +229,7 @@ font-size:5px;
 
 接著做給平板用的版型
 
-```text
+```
 /* For 平板 */
 @media only screen and (min-width:481px){
 
@@ -239,7 +239,7 @@ font-size:5px;
 
 一樣先放black做測試大小
 
-```text
+```
 body{
 
 background:black;
@@ -248,7 +248,7 @@ background:black;
 
 刪掉BODY後，先調nav
 
-```text
+```
 @media only screen and (min-width:481px){
 
 nav ul li {
@@ -266,7 +266,7 @@ nav ul li {
 
 再來設定下面
 
-```text
+```
 #work article{
 float:left;
 width:50%;
@@ -275,7 +275,7 @@ width:50%;
 
 ### For 電腦螢幕
 
-```text
+```
 /* For 電腦螢幕 */
 @media only screen and (min-width:961px){
 nav ul li {
@@ -286,7 +286,7 @@ nav ul li {
 
 調整最上方
 
-```text
+```
 header h1{
 float:left;
 }
@@ -300,14 +300,14 @@ margin-right:5px;
 }
 ```
 
-```text
+```
 header ul{
 float:right;
 margin-top:25px;
 }
 ```
 
-```text
+```
 #work article{
 float:left;
 width:20%;
@@ -316,7 +316,7 @@ width:20%;
 
 從手機板慢慢拉到電腦版，發現最左上方怪怪的，須點F5，畫面才變正常，原因是ul大小在畫面拉大時沒跟著變，所以要幫他變大，才塞的下東西
 
-```text
+```
 header ul{
 width:30%;
 margin-right:-100px;
@@ -325,7 +325,7 @@ margin-right:-100px;
 
 最後
 
-```text
+```
 #news{
 width:40%;
 position:absolute;
@@ -339,7 +339,7 @@ float:right;
 
 ## 完成後
 
-```text
+```
 /* 把連結的字變黑色，底線去掉 */
 a {
   color:#000;
@@ -471,4 +471,3 @@ float:right;
 
 }
 ```
-

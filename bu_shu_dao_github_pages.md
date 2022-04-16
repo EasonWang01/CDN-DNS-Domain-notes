@@ -2,7 +2,7 @@
 
 ## 部屬到github pages
 
-```text
+```
 分為使用者網站和專案網站
 
 使用者網站一個使用者只能有一個，Repo名稱必須取為<username>.github.io
@@ -27,11 +27,11 @@
 
 9.git push origin master 或是 git push remote origin +master
 
-10.前往[http://username.github.io/](http://username.github.io/)
+10.前往[http://username.github.io/](http://username.github.io)
 
 > P.S. 入口文件名稱為index.html
 >
-> 如果輸入[http://username.github.io/](http://username.github.io/)之後沒有到網站的話改為：[http://username.github.io/](http://username.github.io/)index.html
+> 如果輸入[http://username.github.io/](http://username.github.io)之後沒有到網站的話改為：[http://username.github.io/](http://username.github.io)index.html
 >
 > 如果不想加/index.html的話可以刪除repo，然後重建後先用theme的方式創建github page，之後再把內容強制push即可。
 >
@@ -43,11 +43,11 @@
 
 其他與上面相同。
 
-```text
+```
 git branch gh-pages
 ```
 
-```text
+```
 git push origin gh-pages
 ```
 
@@ -67,7 +67,7 @@ git push origin gh-pages
 
 2.記得remote add 的是ssh的url不是https
 
-> 記得要先啟動ssh agent =&gt; eval "$\(ssh-agent -s\)
+> 記得要先啟動ssh agent => eval "$(ssh-agent -s)
 
 [https://gist.github.com/jexchan/2351996](https://gist.github.com/jexchan/2351996)
 
@@ -79,7 +79,7 @@ git push origin gh-pages
 
 直接把密碼寫進git url
 
-```text
+```
 git remote set-url origin https://使用者名稱:密碼@github.com/使用者名稱/專案
 ```
 
@@ -87,7 +87,7 @@ git remote set-url origin https://使用者名稱:密碼@github.com/使用者名
 
 cloudflare
 
-```text
+```
 cname  subdomain1  username.github.io
 cname  subdomain2  username.github.io
 ```
@@ -100,7 +100,7 @@ cname  subdomain2  username.github.io
 
 ## 使用Create react app部屬
 
-[https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md\#github-pages](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#github-pages)
+[https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#github-pages](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#github-pages)
 
 > 記得要先git init 並且 設定好remote url
 >
@@ -108,7 +108,7 @@ cname  subdomain2  username.github.io
 >
 > e.g.
 >
-> ```text
+> ```
 > git remote set-url origin https://username:password@github.com/<username>/<reponame>
 > ```
 
@@ -116,9 +116,9 @@ cname  subdomain2  username.github.io
 
 2.package.json加上
 
-> 以下如果是部屬到專案網站\( gh-pages branch \)而非使用者網站\(username.github.io\)的話，不用加`-b master`
+> 以下如果是部屬到專案網站( gh-pages branch )而非使用者網站(username.github.io)的話，不用加`-b master`
 
-```text
+```
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
@@ -130,7 +130,7 @@ cname  subdomain2  username.github.io
 
 e.g.
 
-```text
+```
 "homepage": "http://使用者名稱.github.io/專案名稱"
 ```
 
@@ -197,7 +197,7 @@ e.g.
 </html>
 ```
 
-2. 新增以下 script 到 index.html 的 &lt;head&gt; 裡面
+2\. 新增以下 script 到 index.html 的 \<head> 裡面
 
 ```javascript
     <script type="text/javascript">
@@ -226,7 +226,6 @@ e.g.
 
 之後 yarn build 後 cd build && serve 即可測試，重新整理後不會找不到路徑了
 
-## github.io/&lt;路徑&gt; 下的路徑
+## github.io/<路徑> 下的路徑
 
 [https://github.com/facebook/create-react-app/issues/1765](https://github.com/facebook/create-react-app/issues/1765)
-

@@ -8,7 +8,7 @@
 
 index.html
 
-```text
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +25,7 @@ index.html
 
 或直接放入
 
-```text
+```
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -65,7 +65,7 @@ index.html
 
 4.Glyphicons
 
-```text
+```
 <div class="container">
 
 </div>
@@ -73,7 +73,7 @@ index.html
 
 將下面放入container內
 
-```text
+```
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -95,7 +95,7 @@ index.html
 </nav>
 ```
 
-```text
+```
    <div class="jumbotron">
     <h1>我是範例</h1>      
     <p>This is just an example</p>
@@ -104,7 +104,7 @@ index.html
 
 ## 佈局
 
-```text
+```
 .col-xs- 小於768px
 .col-sm- 768~992
 .col-md- 992~1200
@@ -115,7 +115,7 @@ index.html
 
 如果一個螢幕大小為1200px而div中具有xs和sm則sm會蓋過xs的效果
 
-```text
+```
 <div class="row">
   <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
   <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
@@ -136,7 +136,7 @@ index.html
 
 使用offset讓元素往右
 
-```text
+```
 <div class="row">
   <div class="col-md-6">.col-sm-5 .col-md-6</div>
   <div class=" col-md-6 col-md-offset-0">.col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0</div>
@@ -150,7 +150,7 @@ index.html
 
 等於
 
-```text
+```
 <div class="row">
   <div class="col-md-6">.col-sm-5 .col-md-6</div>
   <div class=" col-md-6 col-md-offset-0">.col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0</div>
@@ -166,7 +166,7 @@ index.html
 
 push往左，pull往右
 
-```text
+```
 <div class="row">
   <div class="col-md-9 col-md-push-3">.col-md-9 .col-md-push-3</div>
   <div class="col-md-3 col-md-pull-9">.col-md-3 .col-md-pull-9</div>
@@ -175,7 +175,7 @@ push往左，pull往右
 
 ### 文字對齊
 
-```text
+```
 <p class="text-left">靠左對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。</p>
 <p class="text-center">置中對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。</p>
 <p class="text-right">靠右對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。平均對齊文字。</p>
@@ -185,9 +185,9 @@ push往左，pull往右
 
 ### blockquote
 
-比原生html多了左邊的直線 [http://www.w3schools.com/tags/tryit.asp?filename=tryhtml\_blockquote\_default\_css](http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_blockquote_default_css)
+比原生html多了左邊的直線 [http://www.w3schools.com/tags/tryit.asp?filename=tryhtml\_blockquote\_default\_css](http://www.w3schools.com/tags/tryit.asp?filename=tryhtml\_blockquote\_default\_css)
 
-```text
+```
 <blockquote>
   <p>人之初</p>
   <footer>今天<cite title="Source Title">買蘋果</cite></footer>
@@ -196,7 +196,7 @@ push往左，pull往右
 
 表單
 
-```text
+```
 <form role="form">
   <div class="form-group">
     <label for="exampleInputEmail1">電子郵件</label>
@@ -222,11 +222,11 @@ push往左，pull往右
 
 ## 導覽列
 
-```text
+```
 <nav class="navbar>
 ```
 
-```text
+```
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -260,9 +260,9 @@ push往左，pull往右
 </nav>
 ```
 
-使用圖案，到[https://kkbruce.tw/bs3/Components查詢](https://kkbruce.tw/bs3/Components查詢)
+使用圖案，到[https://kkbruce.tw/bs3/Components查詢](https://kkbruce.tw/bs3/Components%E6%9F%A5%E8%A9%A2)
 
-```text
+```
 <button class="btn btn-default" >
   <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
 </button>
@@ -276,7 +276,7 @@ push往左，pull往右
 
 加入導覽列
 
-```text
+```
  <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -302,7 +302,7 @@ push往左，pull往右
 
 加入中間部分
 
-```text
+```
     <div style="margin-top:100px;" class="container">
         <div class="row centered">
             <br><br>
@@ -329,9 +329,9 @@ push往左，pull往右
     </div><!-- container -->
 ```
 
-2.
+2\.
 
-```text
+```
 <div>
         <div class="container">
             <div class="row">
@@ -359,9 +359,9 @@ push往左，pull往右
     </div>
 ```
 
-3.
+3\.
 
-```text
+```
 <div class="container" >
         <div class="row ">
             <br><br>
@@ -378,9 +378,9 @@ push往左，pull往右
     </div><!-- container -->
 ```
 
-4.
+4\.
 
-```text
+```
     <div>
         <div class="container"style="margin-top:10%">
             <div class="row>
@@ -391,4 +391,3 @@ push往左，pull往右
             </div><!-- row -->
         </div><!-- container -->
 ```
-
