@@ -2,17 +2,17 @@
 
 ## 介紹
 
-他會幫你在你的網站server前再加一道防護，你可以去你的DNS provider中把ns\(name server\)改成cloudflare提供的兩個位置即可
+他會幫你在你的網站server前再加一道防護，你可以去你的DNS provider中把ns(name server)改成cloudflare提供的兩個位置即可
 
-> 在Cloudflare找到如下的兩個位置的Name Server![](.gitbook/assets/Screen%20Shot%202018-08-15%20at%205.49.00%20PM.png)
+> 在Cloudflare找到如下的兩個位置的Name Server![](<.gitbook/assets/Screen Shot 2018-08-15 at 5.49.00 PM.png>)
 
-Godaddy畫面如下，加入剛才的兩個位置![](.gitbook/assets/Screen%20Shot%202018-08-15%20at%205.50.05%20PM.png)
+Godaddy畫面如下，加入剛才的兩個位置![](<.gitbook/assets/Screen Shot 2018-08-15 at 5.50.05 PM.png>)
 
 加完了以後再回到cloudflare點選右邊藍色的Recheck按鈕即可。
 
 加上A紀錄。
 
-![](.gitbook/assets/Screen%20Shot%202018-08-15%20at%205.57.44%20PM.png)
+![](<.gitbook/assets/Screen Shot 2018-08-15 at 5.57.44 PM.png>)
 
 之後要等一小時左右，讓NameServer 生效。
 
@@ -28,7 +28,7 @@ Godaddy畫面如下，加入剛才的兩個位置![](.gitbook/assets/Screen%20Sh
 
 進入dashboard後點選Crypto之後ssl有三個選項
 
-```text
+```
 Full   會自動偵測你的主機server內是否有設定SSL證書,自行簽發的即可
 
 Full(Strict)  必須要有合格機構簽發的SSL證書才能
@@ -40,7 +40,7 @@ Flexible  不用證書它會自動幫你上https
 >
 > 其中pem與key是從Crypto頁下方的`Origin Certificates` 產生。
 >
-> ```text
+> ```
 > ssl on;
 > ssl_certificate /usr/test/c.pem;
 > ssl_certificate_key /usr/test/c.key;
@@ -50,7 +50,7 @@ Flexible  不用證書它會自動幫你上https
 
 官網說明
 
-```text
+```
 Flexible SSL: There is an encrypted connection between your website visitors and Cloudflare, but not from Cloudflare to your server.
 You do not need an SSL certificate on your server
 Visitors will see the SSL lock icon in their browser
@@ -64,15 +64,15 @@ You will need to have a valid SSL certificate installed on your server signed by
 Visitors will see the SSL lock icon in their browser
 ```
 
-> 配置後要等一下才會生效\(可能到幾個小時\)，如果是讓github page 自訂域名後用https，設定要選Flexible
+> 配置後要等一下才會生效(可能到幾個小時)，如果是讓github page 自訂域名後用https，設定要選Flexible
 
 ## 用 Full SSL
 
-> 在下圖產生 key 和 pem。![](.gitbook/assets/Screen%20Shot%202018-11-08%20at%205.54.22%20PM.png)private key 只有第一次產生時會顯示。
+> 在下圖產生 key 和 pem。![](<.gitbook/assets/Screen Shot 2018-11-08 at 5.54.22 PM.png>)private key 只有第一次產生時會顯示。
 
 之後到 nginx 設定如下：
 
-```text
+```
 server {
   server_name test.com;
   listen 443;
@@ -88,7 +88,7 @@ server {
 
 [https://xblockchain.co](https://xblockchain.co)
 
-```text
+```
 server {
         listen 80;
         server_name xblockchain.co;
@@ -112,20 +112,20 @@ server {
 
 > 都監聽著80即可。
 
-```text
+```
 server {
         listen 80;
 
-        root /home/lasih82ne/getuserInfo/front-end/build;
+        root /home/test/getuserInfo/front-end/build;
         index index.html index.htm index.nginx-debian.html;
 
-        server_name www.payhome.co;
+        server_name www.home.co;
 
 }
 
 server {
   listen 80;
-  server_name api.payhome.co;
+  server_name api.home.co;
   location / {
     proxy_pass http://localhost:3000;
     proxy_http_version 1.1;
@@ -136,7 +136,7 @@ server {
 }
 ```
 
-## 使用nginx搭配cloudflare配置https\(Origin certificate\)
+## 使用nginx搭配cloudflare配置https(Origin certificate)
 
 > 先前是指在browser到cloudflare有加密SSL 這個是在cloudflare到你的server這段也加上SSL
 
@@ -146,7 +146,7 @@ server {
 
 然後往下拉點選\`Create certificate\`
 
-![](.gitbook/assets/螢幕快照%202017-05-30%20下午2.29.02.png)
+![](<.gitbook/assets/螢幕快照 2017-05-30 下午2.29.02.png>)
 
 之後會給你pem跟key，複製起來存到主機中
 
@@ -156,13 +156,13 @@ server {
 
 之後加nginx的config加上
 
-![](.gitbook/assets/螢幕快照%202017-05-30%20下午2.24.27.png)
+![](<.gitbook/assets/螢幕快照 2017-05-30 下午2.24.27.png>)
 
 > 在 browser 如果直接輸入 API 位置的話會出現 untrusted certificate 是正常的（只要看到 certificate 的到期日是符合 Cloudflare 上的即可 ，可以直接發請求給 HTTPS 的 Endpoint 沒問題。
 
 ## 目前範例配置
 
-\(上面的A記錄為subdomain\)下面ＣＮＡＭＥ與MX,TXT為mail使用![](.gitbook/assets/螢幕快照%202017-05-30%20下午2.31.08.png)
+(上面的A記錄為subdomain)下面ＣＮＡＭＥ與MX,TXT為mail使用![](<.gitbook/assets/螢幕快照 2017-05-30 下午2.31.08.png>)
 
 Origin Certificate是我們想在Server上安裝時需要申請的，而Edge Certificate是cloudflare自動產生的，不用理會。
 
@@ -176,27 +176,26 @@ Origin Certificate是我們想在Server上安裝時需要申請的，而Edge Cer
 
 E.g.
 
-```text
+```
 aa.cc.ni.com/
 ```
 
 ## 在Github page加上apex domain
 
-（apex domain就是沒有subdomain的domain\)
+（apex domain就是沒有subdomain的domain)
 
 > 在cloudflare的A記錄加上Github給的四個A記錄即可
 
-[https://help.github.com/articles/setting-up-an-apex-domain/\#configuring-a-records-with-your-dns-provider](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)
+[https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)
 
 ## 轉導域名到subdomain
 
 點選 Page Rules
 
-![](.gitbook/assets/Screen%20Shot%202019-02-07%20at%205.23.25%20PM.png)
+![](<.gitbook/assets/Screen Shot 2019-02-07 at 5.23.25 PM.png>)
 
 ## Github pages 強制使用 HTTPS URL
 
 > 原本在 github pages 的 enforce HTTPS 會無法勾選，需要到 cloudflare 的 page rules 設置。
 
 ![](.gitbook/assets/jie-tu-20201219-xia-wu-8.29.07.png)
-
