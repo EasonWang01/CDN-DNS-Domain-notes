@@ -22,4 +22,18 @@
 
 ## 3.Noise Animation
 
-[https://css-tricks.com/snippets/css/animated-grainy-texture/](https://css-tricks.com/snippets/css/animated-grainy-texture/)
+{% embed url="https://css-tricks.com/snippets/css/animated-grainy-texture/" %}
+
+## 4. 移除 Mobile 的 hover 效果
+
+hover 於手機頁面顯示時偶爾會出現上一個選擇的元素也觸發 hover 效果的 bug，可以使用如下
+
+```javascript
+  @media (hover: hover) { // Disable hover effect on mobile
+    :hover {
+      color: #1890ff;
+    }
+  }
+```
+
+[https://css-tricks.com/solving-sticky-hover-states-with-media-hover-hover/](https://css-tricks.com/solving-sticky-hover-states-with-media-hover-hover/)
