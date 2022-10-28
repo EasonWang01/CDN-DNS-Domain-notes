@@ -45,3 +45,14 @@ hover 於手機頁面顯示時偶爾會出現上一個選擇的元素也觸發 h
 ![](<../.gitbook/assets/截圖 2022-10-28 上午10.54.05.png>)
 
 ![](<../.gitbook/assets/截圖 2022-10-28 上午10.57.45.png>)
+
+或是更進階的三層
+
+![](<../.gitbook/assets/截圖 2022-10-28 上午11.30.43.png>)
+
+```css
+background: 
+linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 20px) calc(100% - 0px) no-repeat, 
+linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 10px) no-repeat, 
+linear-gradient(90deg, #48abe0 5%, transparent 5%, transparent 95%, #48abe0 5%);
+```
