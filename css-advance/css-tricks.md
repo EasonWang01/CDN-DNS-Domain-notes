@@ -36,4 +36,12 @@ hover 於手機頁面顯示時偶爾會出現上一個選擇的元素也觸發 h
   }
 ```
 
-[https://css-tricks.com/solving-sticky-hover-states-with-media-hover-hover/](https://css-tricks.com/solving-sticky-hover-states-with-media-hover-hover/)
+{% embed url="https://css-tricks.com/solving-sticky-hover-states-with-media-hover-hover/" %}
+
+## 5.  linear-gradient 產生效果
+
+讓 顏色後面接續著 transparent 並且在同個 % 可產生以下效果
+
+![](<../.gitbook/assets/截圖 2022-10-28 上午10.54.05.png>)
+
+![](<../.gitbook/assets/截圖 2022-10-28 上午10.57.45.png>)

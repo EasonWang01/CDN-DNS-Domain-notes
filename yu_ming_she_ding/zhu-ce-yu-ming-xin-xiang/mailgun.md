@@ -1,6 +1,6 @@
 # mailgun
 
-[https://www.mailgun.com/](https://www.mailgun.com)
+[https://www.mailgun.com/](https://www.mailgun.com/)
 
 到網站照著步驟加入MX與TXT
 
