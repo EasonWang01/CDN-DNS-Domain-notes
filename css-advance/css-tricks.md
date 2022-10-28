@@ -54,5 +54,11 @@ hover 於手機頁面顯示時偶爾會出現上一個選擇的元素也觸發 h
 background: 
 linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 20px) calc(100% - 0px) no-repeat, 
 linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 10px) no-repeat, 
-linear-gradient(90deg, #48abe0 5%, transparent 5%, transparent 95%, #48abe0 5%);
+linear-gradient(90deg, #48abe0 5%, transparent 5%, transparent 95%, #48abe0 5%)
 ```
+
+## 6. 網格狀背景
+
+![](<../.gitbook/assets/截圖 2022-10-28 上午11.39.37.png>)
+
+[https://stackoverflow.com/a/32861765/4622645](https://stackoverflow.com/a/32861765/4622645)
