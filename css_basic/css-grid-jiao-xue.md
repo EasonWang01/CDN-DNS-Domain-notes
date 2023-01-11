@@ -6,7 +6,7 @@
 
 CSS Grid 為一個 CSS 的 layout 方法，2-dimension 的排版方式。
 
-\(有兩個方式寫grid 以下分別說明\)
+(有兩個方式寫grid 以下分別說明)
 
 ## 寫法1
 
@@ -83,11 +83,11 @@ CSS Grid 為一個 CSS 的 layout 方法，2-dimension 的排版方式。
 
 ![](../.gitbook/assets/22.png)
 
-## \#寫法2
+## #寫法2
 
 直接分配每個部分要從區塊第幾個開始到第幾個結束
 
-```text
+```
 .header {
   background-color: black;
   grid-column-start: 1;
@@ -97,11 +97,11 @@ CSS Grid 為一個 CSS 的 layout 方法，2-dimension 的排版方式。
 }
 ```
 
-## \#其他align 的方法
+## #其他align 的方法
 
 給container
 
-```text
+```
  justify-items
  align-items
  justify-content
@@ -109,8 +109,23 @@ CSS Grid 為一個 CSS 的 layout 方法，2-dimension 的排版方式。
 
 給child
 
-```text
+```
 justify-self
 align-self
 ```
 
+## grid-template-row 與 grid-auto-row 區別
+
+auto-row 或 auto-column 後面都只能接受一個數值:
+
+```
+grid-auto-rows: auto;
+```
+
+但 template-row 與 template-column 接受多個
+
+```
+grid-template-columns: 1fr 1fr 1fr;
+```
+
+> 通常知道有多少個元素時會用 template- 而不確定元素數量時使用 auto-
