@@ -4,6 +4,7 @@
 * [Web Component](chapter1.md)
 * [HTML basic](html\_basic.md)
 * [CSS basic](css\_basic/README.md)
+  * [Inline element 與 Block element](css\_basic/inline-element-yu-block-element.md)
   * [實用CSS 技巧](css\_basic/shi-yong-css-ji-qiao.md)
   * [CSS Grid 教學](css\_basic/css-grid-jiao-xue.md)
 * [CSS Advance](css-advance/README.md)
