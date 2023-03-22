@@ -84,23 +84,15 @@ server {
 
 ## 用 Flexible SSL
 
-如果用nginx，則在nginx設置好80 port後在https網址即可看到
+如果用nginx，則在nginx設置好 80 port 後在https網址即可看到
 
-[https://xblockchain.co](https://xblockchain.co)
-
-```
-server {
-        listen 80;
-        server_name xblockchain.co;
-        location / {
-          proxy_pass http://localhost:8080;
-        }
-}
-```
+因為 flexible 是由 cloudflare 設置 client 與 cloudflare 間的 https 連線，而 cloudflare 與 api server 或 web server 之間仍是走 http，所以可以不用在 server 安裝證書，且 nginx 監聽 80 port 即可。
 
 ### 包含後端與前端
 
-因為 flexible 是由 cloudflare 設置 client 與 cloudflare 間的 https 連線，而 cloudflare 與 api server 或 web server 之間仍是走 http，所以可以不用在 server 安裝證書，且 nginx 監聽 80 port 即可。
+cloudflare 設置
+
+![](<.gitbook/assets/截圖 2023-03-22 下午5.57.46.png>)
 
 Nginx 範例 config
 
@@ -177,7 +169,7 @@ server {
 
 先到[https://www.cloudflare.com/a/crypto](https://www.cloudflare.com/a/crypto)
 
-然後往下拉點選\`Create certificate\`
+然後往下拉點選Create certificate\`
 
 ![](<.gitbook/assets/螢幕快照 2017-05-30 下午2.29.02.png>)
 
