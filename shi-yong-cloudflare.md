@@ -98,6 +98,39 @@ server {
 }
 ```
 
+### 包含後端與前端
+
+因為 flexible 是由 cloudflare 設置 client 與 cloudflare 間的 https 連線，而 cloudflare 與 api server 或 web server 之間仍是走 http，所以可以不用在 server 安裝證書，且 nginx 監聽 80 port 即可。
+
+Nginx 範例 config
+
+```javascript
+# Default server block for domain.com
+server {
+    listen 80;
+    server_name domain.com www.domain.com;
+
+    # Your site configuration goes here
+    location / {
+        # Your site settings go here
+    }
+}
+
+# Server block for api.domain.com
+server {
+    listen 80;
+    server_name api.domain.com;
+
+    # Proxy settings to route requests to port 8111
+    location / {
+        proxy_pass http://localhost:8111/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+}
+```
+
 ### 產生 redirect loop Error
 
 > 如果設定為`flexible SSL` 打開網頁一直顯示 redirect error 可參考：
