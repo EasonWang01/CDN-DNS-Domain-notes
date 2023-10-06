@@ -4,7 +4,7 @@
 
 1.包含分頁與新增、修改、刪除的表格
 
-![](../.gitbook/assets/jie-tu-20210623-xia-wu-8.23.14.png)
+![](<../.gitbook/assets/截圖 2021-06-23 下午8.23.14.png>)
 
 ```javascript
 import React, { useState } from "react";
@@ -163,7 +163,7 @@ export default CreateOrder;
 
 ## 設定表單 input value
 
-```text
+```
   const [form] = Form.useForm();
   ．．．
     form.setFieldsValue({
@@ -173,7 +173,7 @@ export default CreateOrder;
 
 然後
 
-```text
+```
     <Form
         {...layout}
         name="basic"
@@ -188,5 +188,4 @@ export default CreateOrder;
 
 > 如果 datasource 更新但 table cell 沒更新，必須用 clone 的方式來更新 state
 
-![](../.gitbook/assets/jie-tu-20210624-xia-wu-12.36.38.png)
-
+![](<../.gitbook/assets/截圖 2021-06-24 下午12.36.38.png>)

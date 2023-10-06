@@ -177,7 +177,7 @@ server {
 
 並且在 cloudflare dns 加上 A 記錄，輸入 api subdomain 名稱
 
-![](.gitbook/assets/jie-tu-20210201-shang-wu-10.26.08.png)
+![](<.gitbook/assets/截圖 2021-02-01 上午10.26.08.png>)
 
 之後加nginx的config加上
 
@@ -223,4 +223,4 @@ aa.cc.ni.com/
 
 > 原本在 github pages 的 enforce HTTPS 會無法勾選，需要到 cloudflare 的 page rules 設置。
 
-![](.gitbook/assets/jie-tu-20201219-xia-wu-8.29.07.png)
+![](<.gitbook/assets/截圖 2020-12-19 下午8.29.07.png>)
